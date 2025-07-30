@@ -1,4 +1,4 @@
-**Use Case 01 – Build SQL database in Microsoft Fabric to query and create reports**
+## Use Case 01 – Build SQL database in Microsoft Fabric to query and create reports
 
 **Introduction**
 
