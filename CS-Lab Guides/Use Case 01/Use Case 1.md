@@ -71,7 +71,7 @@ Capacity administrator of that trial.
     ![A screenshot of a computer Description automatically
     generated](./media/image4.png)
 
-### **Task-2: Enable SQL Database (Preview) for a capacity**
+### **Task-2: Enable SQL Database for a capacity**
 
 1.  Go to the **settings** option on the Fabric Home Page.
 
