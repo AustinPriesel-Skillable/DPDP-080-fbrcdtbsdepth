@@ -52,7 +52,7 @@ To create a workspace:
 
     |   |   |
     |---|---|
-    |Name|	+++Supply Chain Analytics WorkspaceXX+++(XX can be a unique number)|
+    |Name|	+++Supply Chain Analytics Workspace@lab.LabInstance.Id|
     |Advanced	|Under License mode, select **fabric capacity**|
 
     ![](./media/image158.png)
@@ -1350,4 +1350,5 @@ concludes with the setup of a GraphQL API for application integration
 and guidance on cleaning up resources. By completing this tutorial,
 users gain practical experience in managing and analyzing supply chain
 data within a unified analytics environment.
+
 
