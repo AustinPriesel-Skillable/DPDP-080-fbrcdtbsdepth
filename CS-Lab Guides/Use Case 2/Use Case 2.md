@@ -42,7 +42,7 @@ roles for the workspace to create a SQL database.
 
 To create a workspace:
 
-1.  In the **Fabric** home page, select **+New workspace**.
+1.  Sign in to the **Fabric** home page +++https://fabric.microsoft.com+++, select **+New workspace**.
 
     ![A screenshot of a computer AI-generated content may be
     incorrect.](./media/image1.png)
@@ -1350,3 +1350,4 @@ concludes with the setup of a GraphQL API for application integration
 and guidance on cleaning up resources. By completing this tutorial,
 users gain practical experience in managing and analyzing supply chain
 data within a unified analytics environment.
+
