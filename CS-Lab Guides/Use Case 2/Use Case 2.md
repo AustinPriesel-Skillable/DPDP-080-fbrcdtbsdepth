@@ -60,6 +60,29 @@ To create a workspace:
     ![A screenshot of a screenshot of a computer AI-generated content may
     be incorrect.](./media/image159.png)
 
+### **Task-2: Enable SQL Database for a capacity**
+
+1.  Go to the **settings** option on the Fabric Home Page.
+
+2.  Select Admin portal settings from the drop-down menu.
+
+3.  In the Admin portal, select the **Fabric Capacity** tab.
+
+4.  Now, select the **capacity name** associated with your user account.
+
+5.  Select the **Delegated tenant settings** tab.
+
+6.  Navigate to the **SQL database (preview)** section and check the
+    checkbox for ‘**Override tenant admin selection**’.
+
+7.  Enable it for **All the users in capacity** and click on **Apply.**
+
+8.  Now, wait for at least **15 minutes** before creating the SQL
+    Database in Fabric.
+
+    **Note**: After 15 minutes, you might need to refresh the page if you
+    can’t see the SQL Database (preview) option.    
+
 ## Exercise 2 – Create a SQL Database in Microsoft Fabric 
 
 1.  In the Fabric Portal, click on **+ New Item**, search for **SQL
@@ -1350,6 +1373,7 @@ concludes with the setup of a GraphQL API for application integration
 and guidance on cleaning up resources. By completing this tutorial,
 users gain practical experience in managing and analyzing supply chain
 data within a unified analytics environment.
+
 
 
 
