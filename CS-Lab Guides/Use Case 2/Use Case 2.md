@@ -85,7 +85,7 @@ To create a workspace:
 
 ## Exercise 2 – Create a SQL Database in Microsoft Fabric 
 
-1.  In the Fabric Portal, click on **+ New Item**, search for **SQL
+1.  In the Fabric Portal, navigate back to your workspace and select **+ New Item**, search for **SQL
     databases**, and select **SQL database (preview) tile.**
 
     ![](./media/image5.png)
@@ -1373,6 +1373,7 @@ concludes with the setup of a GraphQL API for application integration
 and guidance on cleaning up resources. By completing this tutorial,
 users gain practical experience in managing and analyzing supply chain
 data within a unified analytics environment.
+
 
 
 
