@@ -904,7 +904,7 @@ organization.
     following T-SQL code to see the changes to the table live in the
     database:
 
-    +++SELECT \* FROM > INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'Suppliers';+++
+    +++SELECT \* FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'Suppliers';+++
 
     ![A screenshot of a computer Description automatically
     generated](./media/image120.png)
@@ -1373,6 +1373,7 @@ concludes with the setup of a GraphQL API for application integration
 and guidance on cleaning up resources. By completing this tutorial,
 users gain practical experience in managing and analyzing supply chain
 data within a unified analytics environment.
+
 
 
 
