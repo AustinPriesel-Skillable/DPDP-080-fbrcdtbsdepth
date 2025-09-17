@@ -202,7 +202,7 @@ To create a workspace:
 
 2.  You'll see a **Loading Sample Data** notification.
 
-- Don't modify the database while the import is in process.
+    - Don't modify the database while the import is in process.
 
     ![A screenshot of a computer AI-generated content may be
     incorrect.](./media/image23.png)
@@ -552,3 +552,4 @@ reports using Power BI. The lab also introduces advanced features like
 GraphQL API generation and secure data sharing. By completing the
 exercises, users gain practical experience in leveraging Microsoft
 Fabric for end-to-end data management and reporting workflows.
+
