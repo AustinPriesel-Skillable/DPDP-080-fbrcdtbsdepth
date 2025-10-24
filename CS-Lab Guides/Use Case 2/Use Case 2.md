@@ -340,7 +340,7 @@ Fabric portal.
     generated](./media/image38.png)
 
 4.  In the URL text box of the **Connect to data source** view, type the
-    text: +++https://services.odata.org/v4/northwind/northwind.svc/+++ for
+    text: +++https://services.odata.org/v4/northwind/northwind.svc/+++  for
     the Open Data feed of the **Northwind sample** database. Select
     the **Next** button to continue.
 
@@ -1585,3 +1585,4 @@ concludes with the setup of a GraphQL API for application integration
 and guidance on cleaning up resources. By completing this tutorial,
 users gain practical experience in managing and analyzing supply chain
 data within a unified analytics environment.
+
