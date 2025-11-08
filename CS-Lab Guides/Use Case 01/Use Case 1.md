@@ -301,7 +301,7 @@ To create a workspace:
     look something like this:
 
     ```
-    CREATE TABLE [dbo].[ProductInfo] (
+    CREATE TABLE [dbo].[NewProducts] (
     ProductID INT IDENTITY(1,1) NOT NULL PRIMARY KEY,
     ProductName NVARCHAR(255) NOT NULL,
     ProductNumber NVARCHAR(50) NULL,
@@ -325,7 +325,7 @@ To create a workspace:
 5.  Expand dbo \> Tables schema from the explorer to see if the new
     table based on the above query is created successfully. Once you’ll
     expand the dbo schema, you’ll see new table created as
-    **ProductsInfo.**
+    **NewProducts**
 
     ![A screenshot of a computer Description automatically
     generated](./media/image37.png)
@@ -622,3 +622,4 @@ reports using Power BI. The lab also introduces advanced features like
 GraphQL API generation and secure data sharing. By completing the
 exercises, users gain practical experience in leveraging Microsoft
 Fabric for end-to-end data management and reporting workflows.
+
