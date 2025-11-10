@@ -395,7 +395,7 @@ Fabric portal.
     query that combines the data from the Suppliers table using this
     tertiary table. You'll do this later in the tutorial.
 
-## Exercise 4 – Query the database 
+## Exercise 4 – Query the database and Review autonomous features
 
 ### **Task-1: Transact-SQL Queries**
 
@@ -880,47 +880,7 @@ organization.
 
 ## Exercise 8 – Create an application with DevOps and GraphQL API
 
-### **Task-1: Create an Organization and Project in Microsoft Azure DevOps**
-
-1.  Navigate to <https://go.microsoft.com/fwlink/?LinkId=307137> and sign-in with
-    your tenant username and password.
-
-    ![A screenshot of a computer Description automatically
-    generated](./media/image112.png)
-
-2.  Approve sign-in request from your **authenticator** app.
-
-    ![A screenshot of a sign in Description automatically
-    generated](./media/image113.png)
-
-3.  Select **Continue** to get started with Azure DevOps.
-
-    ![A screenshot of a computer screen Description automatically
-    generated](./media/image114.png)
-
-4.  Enter the name for your organization
-    as +++**FabricTestProject**+++, select its hosting geography, and
-    then select **Continue**.
-
-    ![A screenshot of a computer Description automatically
-    generated](./media/image115.png)
-
-    ![A screenshot of a computer Description automatically
-    generated](./media/image116.png)
-
-**Congratulations, you're an organization owner!**
-
-5.  You’ll be redirected to this page and make sure you’re into the
-    organization that you have created in the above step.
-
-6.  To create a **new project**, enter a
-    project name as +++Supply-Chain-Disruption-App+++ and select the
-    visibility as **Private**. Click on **Create** **project.**
-
-    ![A screenshot of a computer Description automatically
-    generated](./media/image117.png)
-
-### **Task-3: Create a repository in the same project**
+### **Task-1: Create a repository in the Azure DevOps project**
 
 1.  Open a browser and go to <https://dev.azure.com/ADOCourseOrg04/>
     Sign in with your Azure credentials.
@@ -944,7 +904,7 @@ organization.
     ![A screenshot of a computer Description automatically
     generated](./media/image120.png)
 
-### **Task-4: Connect your workspace to the source control (Azure DevOps)**
+### **Task-2: Connect your workspace to the source control (Azure DevOps)**
 
 1.  Navigate to **Fabric portal**, go to
     the workspace you want to connect and select "**Workspace settings"**. 
@@ -1016,7 +976,7 @@ organization.
     ![A screenshot of a computer Description automatically
     generated](./media/image127.png)
 
-### **Task-5: Interact with SQL Database object schemas from source control in Azure Devops**
+### **Task-3: Interact with SQL Database object schemas from source control in Azure Devops**
 
 1.  Expand the **suppy_chain_analytics_database.SQLDatabase**, then **dbo**,
     then **Tables** and then **Suppliers.sql** object.
@@ -1355,8 +1315,7 @@ this particular task.
     az login
     ```
 
-    If prompted, select the **Subscription** **ID** you used to create the
-    tutorial assets.
+   On the login window, select **Work or School Account** to log in.
 
     ![A screenshot of a computer Description automatically
     generated](./media/image169.png)
@@ -1585,4 +1544,5 @@ concludes with the setup of a GraphQL API for application integration
 and guidance on cleaning up resources. By completing this tutorial,
 users gain practical experience in managing and analyzing supply chain
 data within a unified analytics environment.
+
 
