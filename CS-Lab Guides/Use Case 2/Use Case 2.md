@@ -805,131 +805,136 @@ organization.
 
     ![A screenshot of a computer Description automatically
     generated](./media/image97.png)
-    
+
     ![A screenshot of a computer Description automatically
     generated](./media/image98.png)
 
-9.  Expand the database, expand **Schemas**. Expand
+8.  Expand the database, expand **Schemas**. Expand
     the **SupplyChain** schema. Expand **Views**, and locate the SQL
     view named **vProductsBySupplier**.
 
     ![A screenshot of a computer Description automatically
     generated](./media/image99.png)
-    
-11.  Select the ellipses next to that view. and select the option that
+
+9.  Select the ellipses next to that view. and select the option that
     says **SELECT TOP 100**.
 
+    ![A screenshot of a computer Description automatically
+    generated](./media/image100.png)
 
-
-12. This creates a cell with T-SQL code that has the statements
+10. This creates a cell with T-SQL code that has the statements
     pre-populated for you. Select the **Run Cell** button for the cell
     to run the query and return the results.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image100.png)
-    
-    ![A screenshot of a computer Description automatically
     generated](./media/image101.png)
-
-13. In the results, you can see not only the data requested, but buttons
-    that allow you to view charts, save the data as another table,
-    download, and more.
 
     ![A screenshot of a computer Description automatically
     generated](./media/image102.png)
 
-14. To the side of the results you can see a new pane with quick
-    **inspection** of the data elements, showing minimum and maximum
-    values, missing data, and unique counts of the data returned.
+11. In the results, you can see not only the data requested, but buttons
+    that allow you to view charts, save the data as another table,
+    download, and more.
 
     ![A screenshot of a computer Description automatically
     generated](./media/image103.png)
 
+12. To the side of the results you can see a new pane with quick
+    **inspection** of the data elements, showing minimum and maximum
+    values, missing data, and unique counts of the data returned.
+
     ![A screenshot of a computer Description automatically
     generated](./media/image104.png)
-
-15. Hovering between the code cells shows you a menu to add another
-    cell. Select the **+ Markdown** button.
 
     ![A screenshot of a computer Description automatically
     generated](./media/image105.png)
 
+13. Hovering between the code cells shows you a menu to add another
+    cell. Select the **+ Markdown** button.
+
     ![A screenshot of a computer Description automatically
     generated](./media/image106.png)
 
-16. This places a text-based field where you can add information.
+    ![A screenshot of a computer Description automatically
+    generated](./media/image107.png)
+
+14. This places a text-based field where you can add information.
     Styling for the text is available in the icon bar, or you can select
     the \</\> button to work with Markdown directly. The result of the
     formatting show as a preview of the formatted text.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image107.png)
-
-    ![A screenshot of a computer Description automatically
     generated](./media/image108.png)
-
-17. Select the **Save As** icon in the ribbon.
 
     ![A screenshot of a computer Description automatically
     generated](./media/image109.png)
 
-18. Enter the text +++**products_by_suppliers_notebook**+++. Ensure you
-    set the location to your tutorial Workspace. Select
-    the **Save** button to save the notebook.
+15. Select the **Save As** icon in the ribbon.
 
     ![A screenshot of a computer Description automatically
     generated](./media/image110.png)
 
+16. Enter the text +++**products_by_suppliers_notebook**+++. Ensure you
+    set the location to your tutorial Workspace. Select
+    the **Save** button to save the notebook.
+
     ![A screenshot of a computer Description automatically
     generated](./media/image111.png)
+
+    ![A screenshot of a computer Description automatically
+    generated](./media/image112.png)
 
 ## Exercise 8 – Create an application with DevOps and GraphQL API
 
 ### **Task-1: Create a repository in the Azure DevOps project**
 
-1.  Open a browser and go to <https://dev.azure.com/ADOCourseOrg04/>
-    Sign in with your Azure credentials.
+1.  Open a new tab on your browser and paste this url to navigate to
+    Azure DevOps: +++https://dev.azure.com/ADOCourseOrg04+++ and Sign in
+    with the given credentials.
 
-2.  Select your project.
+    ![A screenshot of a computer screen Description automatically
+    generated](./media/image119.png)
 
-    ![](./media/image118.png)
+2.  Select your project ‘**Supply-Chain-Disruption-App’**
+
+    ![](./media/image120.png)
 
 3.  Navigate to **Files** option under
     **Repos** section. From the repo **drop-down** at the top,
     select **new repository**.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image119.png)
+    generated](./media/image121.png)
 
 4.  In the **Create a new repository** dialog, verify that Git is the
     repository type and enter a name – **SupplyChainAnalytics** for your
     new repository. To add a **README**, check the checkbox.
+
     When you're happy with the repo name and choices, select **Create**.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image120.png)
+    generated](./media/image122.png)
 
 ### **Task-2: Connect your workspace to the source control (Azure DevOps)**
 
 1.  Navigate to **Fabric portal**, go to
-    the workspace you want to connect and select "**Workspace settings"**. 
+    the workspace you want to connect and select **Workspace settings** from top-right corner.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image121.png)
+    generated](./media/image123.png)
 
 2.  Under Git Integration settings, select **Azure DevOps** as your Git
     provider and the Entra user as well. Click on **Connect**.
 
-    ![A screenshot of a computer Description automatically
-    generated](./media/image122.png)
+    ![](./media/image124.png)
 
 3.  You'll be **automatically signed** into the Azure Repos account
     registered to the **Microsoft Entra user** signed into Fabric. 
 
 4.  **Provide Repository Details:**
 
-    1.  **Organization:** Select your Azure DevOps organization from the
-        dropdown.
+    1.  **Organization:** Select your Azure DevOps organization
+        **ADOCourseOrg** from the dropdown.
 
     2.  **Project:** Choose the project **Supply-Chain-Disruption-App**
         where your repository is located. 
@@ -943,12 +948,12 @@ organization.
     5.  **Git Folder:**  Specify a folder within the branch where Fabric
         items will be stored. If not created already in Azure DevOps
         portal, it’ll be created from here as well. You can mention the
-        folder name as **SampleWorkload**.
+        folder name as +++SampleWorkload+++.
 
     Click on **Connect and Sync**.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image123.png)
+    generated](./media/image125.png)
 
 5.  Now that you have mentioned the folder name which not created
     earlier, give a confirmation by clicking on **Create and Sync** to
@@ -956,7 +961,7 @@ organization.
     repository.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image124.png)
+    generated](./media/image126.png)
 
 6.  Workspace is now connected to the source control. The items in the
     workspace will automatically by synced. It might take 5-10 mins.
@@ -964,7 +969,7 @@ organization.
     all objects show **Synced** status.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image125.png)
+    generated](./media/image127.png)
 
 7.  In the Workspace view, you'll see the git icon, the branch you
     selected, and a message about the last time the Workspace was
@@ -973,21 +978,21 @@ organization.
     DevOps environment. **Open that link to continue**.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image126.png)
+    generated](./media/image128.png)
 
-8.  Once inside the Azure DevOps environment, select the **Files** item in the explorer pane. The
-    objects synchronized with your SQL database in Fabric and the repository are displayed.
+8.  ![A screenshot of a computer Description automatically
+    generated](./media/image129.png)Once inside the Azure DevOps
+    environment, select the **Files** item in the explorer pane. The
+    objects synchronized with your SQL database in Fabric and the
+    repository are displayed.
 
-    ![A screenshot of a computer Description automatically
-    generated](./media/image127.png)
-
-### **Task-3: Interact with SQL Database object schemas from source control in Azure DevOps**
+### **Task-3: Interact with SQL Database object schemas from source control in Azure Devops**
 
 1.  Expand the **suppy_chain_analytics_database.SQLDatabase**, then **dbo**,
     then **Tables** and then **Suppliers.sql** object.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image128.png)
+    generated](./media/image130.png)
 
     Notice the T-SQL definition of the table in the object contents. In a
     production coding environment, this object would be altered using
@@ -995,84 +1000,84 @@ organization.
     this lab, we are using Azure DevOps source control to make some
     changes to the database objects in the further steps.
 
-2.  Locate the **\[Fax\] column** definition line and select the **Edit** button. 
-    Edit the column definition to **\[Fax\] NVARCHAR (255) NULL**,.
+2.  Locate the **\[Fax\] column** definition line and select the **Edit** button. Edit the column
+    definition to **\[Fax\] NVARCHAR (255) NULL**,.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image129.png)
+    generated](./media/image131.png)
 
 3.  Select the **Commit** button.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image130.png)
+    generated](./media/image132.png)
 
 4.  Fill out the **Commit** message box
     that appears and select the **Commit** button. Try to be descriptive
     of every change in source control, for your and your team's benefit.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image131.png)
+    generated](./media/image133.png)
 
 5.  The commit writes the change to the repository.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image132.png)
+    generated](./media/image134.png)
 
 6.  Switch back to the SQL database in Fabric portal, and refresh the page and then select **Source
     Control**. You have one update pending.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image133.png)
+    generated](./media/image135.png)
 
-7.  In production, you'll review these changes. 
-    Select the **Update All** button. The update might take some time.
+7.  In production, you'll review these
+    changes. Select the **Update All** button. The update might take some time.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image134.png)
+    generated](./media/image136.png)
 
 8.  Select the **supply_chain_analytics_database** from the workspace.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image135.png)
+    generated](./media/image137.png)
 
 9.  Open a new query window in your SQL database. Copy and paste the
     following T-SQL code to see the changes to the table live in the
     database:
 
-    ```
-    SELECT * FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'Suppliers';
-    ```
+    +++SELECT \* FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'Suppliers';+++
+
     ![A screenshot of a computer Description automatically
-    generated](./media/image136.png)
+    generated](./media/image138.png)
 
 10. Enter the following T-SQL code that query to add a column
     named Notes to the ***Suppliers*** table. Highlight just that
     section of code and select the ***Run*** button:
 
-    ```
-    ALTER TABLE Suppliers ADD Notes NVARCHAR(MAX);
-    ```
+    +++ALTER TABLE Suppliers ADD Notes NVARCHAR(MAX);+++
 
     ![A screenshot of a computer screen Description automatically
-    generated](./media/image137.png)
+    generated](./media/image139.png)
 
-11.  Now return to the **tutorial Workspace** in the Fabric portal.
+9.  Now return to the **tutorial Workspace** in the Fabric portal.
 
     Select the **Source Control** button and notice that rather than an **Update**, your
     system shows a **Change** request. Select the check box next to the
     object name and then select the **Commit** button.
 
-![A screenshot of a computer Description automatically
-generated](./media/image138.png)
+    ![A screenshot of a computer Description automatically
+    generated](./media/image140.png)
 
-12. The system commits the changes made
+10. The system commits the changes made
     in the query editor, and you can return to the Azure DevOps Portal
     and navigate to the **Files** area and the dbo Schema and then
     the **Tables** and Suppliers object to see the new column. *(You
     might need to refresh the page to see the change.)*
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image139.png)
+    generated](./media/image141.png)
+
+    You've now seen how you can interact with your SQL database object
+    schemas from your source control in Azure DevOps.
 
 ## Exercise 9: Setup and Configure the GraphQL API
 
@@ -1082,72 +1087,73 @@ To create the API for GraphQL that you'll use for an application:
     GraphQL** tile.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image140.png)
+    generated](./media/image142.png)
 
 2.  Enter the text +++**supplier_impact_gql**+++ for the **Name** for
     your item and select **Create**.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image141.png)
+    generated](./media/image143.png)
 
 3.  Select **data source** card displayed to add the data for GraphQL.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image142.png)
+    generated](./media/image144.png)
 
 4.  On **Choose connectivity option** dialog box, select **Connect to
     Fabric data sources with single-on (SSo) authentication** and click
     on **Ok** button.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image143.png)
+    generated](./media/image145.png)
 
 5.  In the OneLake catalog tab, select the
     **supply_chain_analytics_database** and click on the '**Connect'**
-    button.
+    button
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image144.png)
+    generated](./media/image146.png)
 
 6.  You are presented with a **Choose Data** panel. Scroll until you
     find ***SupplyChain.vProductsBySuppliers***, the view you created
     earlier in this tutorial. Select it and click on **Load** button.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image145.png)
+    generated](./media/image147.png)
 
 7.  In the Query1 panel, replace the text you see there with the
     following GraphQL query string:
 
-    ```
-    query { vProductsbySuppliers(filter: { SupplierLocationID: { eq: 7 } }) { items { CompanyName SupplierLocationID ProductCount } } }
-    ```
+    +++query { vProductsbySuppliers(filter: { SupplierLocationID: { eq: 7 }}) { items { CompanyName SupplierLocationID ProductCount } } }+++
 
 8.  Select the **Run **button in the Query1 window. The results of the
     GraphQL query are returned to the Results window in JSON format.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image146.png)
+    generated](./media/image148.png)
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image147.png)
+    generated](./media/image149.png)
 
 9.  Select the **Copy** **endpoint** button in the ribbon.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image148.png)
+    generated](./media/image150.png)
 
 10. Select the **Copy button** when the Copy link panel appears. Store
     this string in a notepad or other location to be used in the sample
     application for this tutorial.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image149.png)
+    generated](./media/image151.png)
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image150.png)
+    generated](./media/image152.png)
 
-Your API for GraphQL is now ready to accept connections and requests.
+**Your API for GraphQL is now ready to accept connections and
+requests. You can use the API editor to test and prototype GraphQL
+queries and the Schema explorer to verify the data types and fields
+exposed in the API.**
 
 ## Exercise 10 – Create a web application using the SQL database in Fabric API for GraphQL
 
@@ -1160,7 +1166,7 @@ the SQL In Fabric GraphQL endpoint you created in the previous task.
 ### **Task-1: Install .NET SDK for your operating system**
 
 1.  Navigate to this URL to **download** **.NET SDK** -
-    +++https://dotnet.microsoft.com/en-us/download**
+    +++https://dotnet.microsoft.com/en-us/download+++
 
 2.  You will find the following webpage once you go to the above
     website. The latest version at this point is **.NET 9.0**, which
@@ -1168,7 +1174,7 @@ the SQL In Fabric GraphQL endpoint you created in the previous task.
     **Download .NET SDK x64.**
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image151.png)
+    generated](./media/image153.png)
 
 3.  Once you download the **.NET SDK**, install it by double-clicking
     the downloaded **exe** file. Once you click on the EXE, it will open
@@ -1176,21 +1182,21 @@ the SQL In Fabric GraphQL endpoint you created in the previous task.
     button.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image152.png)
+    generated](./media/image154.png)
 
 4.  If everything is fine, once the installation is completed, you will
     get the following message saying the **installation was
     successful**: Click on the **Close** button.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image153.png)
+    generated](./media/image155.png)
 
 5.  Now, to verify what version is installed on your machine, type
     the **dotnet –version** command in the command prompt and press the
     enter button.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image154.png)
+    generated](./media/image156.png)
 
 ### **Task-2: Creating a web application in Visual Studio Code**
 
@@ -1202,7 +1208,7 @@ this particular task.
     **New terminal** option from the drop-down.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image155.png)
+    generated](./media/image157.png)
 
 2.  Open a terminal or command prompt. Run the following commands one by
     one to create a new ASP.NET Core web application.
@@ -1219,26 +1225,27 @@ this particular task.
     directory mentioned. You can check the **directory**, there must be a **GraphQLWebApp** folder created.
 
     ![A screen shot of a computer Description automatically
-    generated](./media/image156.png)
+    generated](./media/image158.png)
 
-3.  Now to proceed, **open** the web appfolder in **Visual Studio Code** by navigating to **File** option in
+3.  Now to proceed, **open** the web app
+    folder in **Visual Studio Code** by navigating to **File** option in
     the top pane, select **Open Folder** option from the drop down and
     select the web app folder named **GraphQLWebApp** from the
     directory.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image157.png)
+    generated](./media/image159.png)
 
 4.  Open the terminal again and **check your NuGet configuration**
     otherwise the installation of packages in the next step will throw
-    an error. Run this command: 
+    an error. Run this command:  
 
     ```
     dotnet nuget list source    
     ``` 
 
     ![A screenshot of a computer program Description automatically
-    generated](./media/image158.png)
+    generated](./media/image160.png)
 
 5.  If you don’t see **nuget.org**, add it manually:
 
@@ -1247,7 +1254,7 @@ this particular task.
     ```
 
     ![A screenshot of a computer program Description automatically
-    generated](./media/image159.png)
+    generated](./media/image161.png)
 
 6.  Now, again verify **NuGet** configuration:
 
@@ -1256,7 +1263,7 @@ this particular task.
     ``` 
 
     ![A screenshot of a computer program Description automatically
-    generated](./media/image160.png)
+    generated](./media/image162.png)
 
 7.  **Add the necessary packages:**
 
@@ -1279,16 +1286,16 @@ this particular task.
     ```
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image161.png)
-
-    ![A screen shot of a computer Description automatically
-    generated](./media/image162.png)
-
-    ![A screenshot of a computer screen Description automatically
     generated](./media/image163.png)
 
-    ![A screenshot of a computer program Description automatically
+    ![A screen shot of a computer Description automatically
     generated](./media/image164.png)
+
+    ![A screenshot of a computer screen Description automatically
+    generated](./media/image165.png)
+
+    ![A screenshot of a computer program Description automatically
+    generated](./media/image166.png)
 
 8.  **Add the Azure CLI software and log in to your subscription:**
 
@@ -1297,40 +1304,41 @@ this particular task.
     ```
     winget install -e --id Microsoft.AzureCLI
     ```
-    ![A computer screen with white text and blue text Description
-    automatically generated](./media/image165.png)
-    
-    ![A screenshot of a computer error Description automatically
-    generated](./media/image166.png)
+
+![A computer screen with white text and blue text Description
+automatically generated](./media/image167.png)
+
+![A screenshot of a computer error Description automatically
+generated](./media/image168.png)
+
+![A screenshot of a computer Description automatically
+generated](./media/image169.png)
+
+9.  Install the Azure CLI Tools extension.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image167.png)
+    generated](./media/image170.png)
 
-9.  **Install the Azure CLI Tools extension.**
+10. **Note: Before running az login and to prevent the error that ‘az
+    term not recognised’, make sure to restart the VS Code and then run
+    the az login command.**
 
-    ![A screenshot of a computer Description automatically
-    generated](./media/image168.png)
-
-10. **Note: Before running az login and to prevent the error that **az term not recognised, make sure to    restart the VS Code and then run the az login command.**
-
-11. **Run the following command to login with your Entra User
-    credentials.**
+11. Run the following command to login with your Entra User credentials.
 
     ```
     az login
     ```
 
-   On the login window, select **Work or School Account** to log in.
+    On the login window, select **Work or School Account** to login.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image169.png)
+    generated](./media/image171.png)
 
 4.  **Modify the Program.cs file**:
 
     - Open the Program.cs file and replace its content with the
       following code. You can also copy this entire code from this
-      reference link
-      <https://github.com/Azure-Samples/siftutorial/blob/main/README.md>
+      reference link: +++https://github.com/Azure-Samples/siftutorial/blob/main/README.md+++
 
     ```
     /* Program.cs
@@ -1496,7 +1504,7 @@ this particular task.
     ```
 
     ![A screenshot of a computer program Description automatically
-    generated](./media/image170.png)
+    generated](./media/image172.png)
 
 5.  **Run the application:**
 
@@ -1513,31 +1521,31 @@ this particular task.
       to **http://localhost:5261** to see the output of your GraphQL
       query.
 
-    ![A screenshot of a computer Description automatically
-    generated](./media/image171.png)
-
     ![A screenshot of a computer program
-    Description automatically generated](./media/image172.png)
+    Description automatically generated](./media/image174.png)
+
+    ![A screenshot of a computer Description automatically
+    generated](./media/image173.png)
 
 ## Exercise 10 – Clean up resources
 
 1.  In the left navigation bar, select the icon for your workspace to
     view all of the items it contains.
 
-    ![](./media/image173.png)
+    ![](./media/image175.png)
 
-11. In the menu on the top toolbar, select **Workspace settings**.
-
-    ![](./media/image174.png)
-
-12. In the **General** section, select **Remove this workspace**.
-
-    ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image175.png)
+2. In the menu on the top toolbar, select **Workspace settings**.
 
     ![](./media/image176.png)
 
-**Summary**
+3. In the **General** section, select **Remove this workspace**.
+
+    ![A screenshot of a computer AI-generated content may be
+    incorrect.](./media/image177.png)
+
+    ![](./media/image178.png)
+
+## Summary
 
 This usecase provides a comprehensive, hands-on guide to building a
 Supply Chain Disruption Response App using Microsoft Fabric's SQL
@@ -1549,6 +1557,3 @@ concludes with the setup of a GraphQL API for application integration
 and guidance on cleaning up resources. By completing this tutorial,
 users gain practical experience in managing and analyzing supply chain
 data within a unified analytics environment.
-
-
-
