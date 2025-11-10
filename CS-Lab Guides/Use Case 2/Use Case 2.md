@@ -659,31 +659,33 @@ specific outcome.
 
 5.  Navigate to the workspace and open the **semantic model** created.
 
-6.  If the below page will be displayed, click on **Open Semantic
-    model** option from the top bar.
-
-    ![A screenshot of a computer Description automatically
+   ![A screenshot of a computer Description automatically
     generated](./media/image75.png)
 
-7.  Make sure the semantic model is in **Editing** view to make any
-    changes.
+7.  If the below page will be displayed, click on **Open Semantic
+    model** option from the top bar.
 
     ![A screenshot of a computer Description automatically
     generated](./media/image76.png)
 
-8.  From the resulting view, zoom in and scroll over until you see
-    the **vTotalProductsByVendorLocation** object.
+8.  Make sure the semantic model is in **Editing** view to make any
+    changes.
 
     ![A screenshot of a computer Description automatically
     generated](./media/image77.png)
 
-9.  In the properties, select the **Location** field, and expand
+9.  From the resulting view, zoom in and scroll over until you see
+    the **vTotalProductsByVendorLocation** object.
+
+    ![](./media/image78.png) 
+
+10.  In the properties, select the **Location** field, and expand
     the **Advanced** properties section. You might need to scroll to
     find it. Set the value of **Summarize by** to **None**. This ensures
     that when the field is used, it's a discrete number, not a
     mathematical summarization of that number.
 
-    ![](./media/image78.png)
+     [](./media/image79.png) 
 
 ### **Task-3: Create a report**
 
@@ -693,11 +695,12 @@ the SQL analytics endpoint in previous steps.
 1.  From the semantic model page, navigate to ‘**File’** option and
     select **‘create a new report’** option.
 
-    ![](./media/image79.png)
+    ![](./media/image80.png)
 
 2.  Now the Power BI canvas appears.
 
-    ![](./media/image80.png)
+    ![A screenshot of a computer Description automatically
+    generated](./media/image81.png)
 
 3.  Expand the **vTotalProductsByVendorLocation** data object. Select
     each of the fields you see there. The report takes a moment to
@@ -705,36 +708,37 @@ the SQL analytics endpoint in previous steps.
     desired.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image81.png)
+    generated](./media/image82.png)
 
 4.  Select in a blank area of the report canvas.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image82.png)
+    generated](./media/image83.png)
 
 5.  Select **Location** in the **Data** fields area.
 
+
     ![A screenshot of a computer Description automatically
-    generated](./media/image83.png)
+    generated](./media/image84.png)
 
 6.  Select a value in the box you just created – notice how the first
     selection of values follows the selection you make in the second
     box. Select that same value again to clear the selection.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image84.png)
-
-7.  Select in a blank area of the reporting canvas, and then select
+    generated](./media/image85.png)
+    
+8.  Select in a blank area of the reporting canvas, and then select
     the **Supplier** field.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image85.png)
+    generated](./media/image86.png)
 
-8.  Once again, you can select the name of a supplier and the first
+9.  Once again, you can select the name of a supplier and the first
     selection shows the results of just that supplier.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image86.png)
+    generated](./media/image87.png)
 
 ### **Task-4: Save the Power BI item** 
 
@@ -744,16 +748,18 @@ organization.
 1.  Select the **Save** button in the icon box.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image87.png)
+    generated](./media/image88.png)
 
-2.  Name the report +++ +++ and ensure you select the correct Workspace
+
+2.  Name the report +++suppliers_by_location_report+++ and ensure you select the correct Workspace
     for this tutorial. Select **Save** button.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image88.png)
-
-    ![A screenshot of a computer Description automatically
     generated](./media/image89.png)
+
+    
+    ![A screenshot of a computer Description automatically
+    generated](./media/image90.png)
 
 ## Exercise 7 – Perform data analysis using Microsoft Fabric Notebooks
 
@@ -763,60 +769,59 @@ organization.
     navigation bar.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image90.png)
+    generated](./media/image91.png)
 
 2.  Select the workspace name again.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image91.png)
+    generated](./media/image92.png)
 
 3.  In the **Fabric** page, select **+New item**. Then, select
     **Notebook** tile.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image92.png)
+    generated](./media/image93.png)
 
 4.  In the icon bar, change the environment from **PySpark
     (Python)** to **T-SQL**.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image93.png)
+    generated](./media/image94.png)
 
 5.  In each code cell, there is a drop-down list for the code language.
     In the first cell in the Notebook, change the code language
     from **PySpark (Python)** to **T-SQL**.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image94.png)
+    generated](./media/image95.png)
 
 6.  Select the **+ Warehouses** button.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image95.png)
+    generated](./media/image96.png)
 
 7.  Select the **SQL analytics endpoint** object that is named
     **supply_chain_analytics_database**. Select **Confirm**.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image96.png)
-
-    ![A screenshot of a computer Description automatically
     generated](./media/image97.png)
+    
+    ![A screenshot of a computer Description automatically
+    generated](./media/image98.png)
 
-8.  Expand the database, expand **Schemas**. Expand
+9.  Expand the database, expand **Schemas**. Expand
     the **SupplyChain** schema. Expand **Views**, and locate the SQL
     view named **vProductsBySupplier**.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image98.png)
-
-9.  Select the ellipses next to that view. and select the option that
+    generated](./media/image99.png)
+    
+11.  Select the ellipses next to that view. and select the option that
     says **SELECT TOP 100**.
 
-    ![A screenshot of a computer Description automatically
-    generated](./media/image99.png)
 
-10. This creates a cell with T-SQL code that has the statements
+
+12. This creates a cell with T-SQL code that has the statements
     pre-populated for you. Select the **Run Cell** button for the cell
     to run the query and return the results.
 
@@ -826,14 +831,14 @@ organization.
     ![A screenshot of a computer Description automatically
     generated](./media/image101.png)
 
-11. In the results, you can see not only the data requested, but buttons
+13. In the results, you can see not only the data requested, but buttons
     that allow you to view charts, save the data as another table,
     download, and more.
 
     ![A screenshot of a computer Description automatically
     generated](./media/image102.png)
 
-12. To the side of the results you can see a new pane with quick
+14. To the side of the results you can see a new pane with quick
     **inspection** of the data elements, showing minimum and maximum
     values, missing data, and unique counts of the data returned.
 
@@ -843,7 +848,7 @@ organization.
     ![A screenshot of a computer Description automatically
     generated](./media/image104.png)
 
-13. Hovering between the code cells shows you a menu to add another
+15. Hovering between the code cells shows you a menu to add another
     cell. Select the **+ Markdown** button.
 
     ![A screenshot of a computer Description automatically
@@ -852,7 +857,7 @@ organization.
     ![A screenshot of a computer Description automatically
     generated](./media/image106.png)
 
-14. This places a text-based field where you can add information.
+16. This places a text-based field where you can add information.
     Styling for the text is available in the icon bar, or you can select
     the \</\> button to work with Markdown directly. The result of the
     formatting show as a preview of the formatted text.
@@ -863,12 +868,12 @@ organization.
     ![A screenshot of a computer Description automatically
     generated](./media/image108.png)
 
-15. Select the **Save As** icon in the ribbon.
+17. Select the **Save As** icon in the ribbon.
 
     ![A screenshot of a computer Description automatically
     generated](./media/image109.png)
 
-16. Enter the text +++**products_by_suppliers_notebook**+++. Ensure you
+18. Enter the text +++**products_by_suppliers_notebook**+++. Ensure you
     set the location to your tutorial Workspace. Select
     the **Save** button to save the notebook.
 
@@ -976,7 +981,7 @@ organization.
     ![A screenshot of a computer Description automatically
     generated](./media/image127.png)
 
-### **Task-3: Interact with SQL Database object schemas from source control in Azure Devops**
+### **Task-3: Interact with SQL Database object schemas from source control in Azure DevOps**
 
 1.  Expand the **suppy_chain_analytics_database.SQLDatabase**, then **dbo**,
     then **Tables** and then **Suppliers.sql** object.
@@ -1544,5 +1549,6 @@ concludes with the setup of a GraphQL API for application integration
 and guidance on cleaning up resources. By completing this tutorial,
 users gain practical experience in managing and analyzing supply chain
 data within a unified analytics environment.
+
 
 
