@@ -1,4 +1,4 @@
-# Use Case 2 – Build real-time analytics with Cosmos DB in Microsoft Fabric
+# Use Case 1 – Build scalable data solutions with SQL database in Microsoft Fabric
 
 ## **Introduction**
 
@@ -1322,3 +1322,4 @@ exploring Copilot capabilities for SQL Database, implementing
 Retrieval-Augmented Generation (RAG) with Azure OpenAI, developing
 GraphQL APIs for RAG applications, and creating insightful Power BI
 reports using semantic models.
+
