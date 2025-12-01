@@ -1,4 +1,4 @@
-# Use Case 3- End-to-end real-time data solutions with Cosmos DB in Microsoft Fabric
+# Use Case 3: End-to-end real-time data solutions with Cosmos DB in Microsoft Fabric
 
 ## Introduction
 
@@ -1432,4 +1432,5 @@ enrich customer profiles and generate personalized recommendations. By
 completing these exercises, you gained end-to-end experience in
 designing, implementing, and consuming real-time insights in a modern
 data architecture powered by Microsoft Fabric.
+
 
