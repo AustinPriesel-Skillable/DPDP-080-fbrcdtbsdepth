@@ -1,0 +1,15 @@
+Microsoft Fabric Resource IDs
+Generated on: 2025-11-21 13:10:34
+=====================================
+
+Workspace Name: Fourth Coffee Commerce - 0910
+Workspace ID: 22fa8fa7-431c-45e2-a1aa-d7a4462cfb83
+
+Lakehouse Name: fc_commerce_lh
+Lakehouse ID: 59a3d763-a868-4242-b81e-46d37e52592c
+
+Warehouse Name: fc_commerce_wh
+Warehouse ID: ed4aff4d-dfa1-4878-89e8-5496eeea9293
+
+=====================================
+Use these IDs for connecting to your Fabric resources
