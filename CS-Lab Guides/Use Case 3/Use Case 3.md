@@ -67,7 +67,7 @@ into the Data Warehouse that will be used in later exercises.
 6.  In the Create a workspace tab, enter the following details and click
     on the **Apply** button.
 
-- **Workspace name** - Fourth Coffee Commerce - 0910
+- **Workspace name** - +++Fourth Coffee Commerce - 0910+++
 
 - **Advanced: Semantic Model storage format -** Small semantic model
   storage format
@@ -90,8 +90,7 @@ into the Data Warehouse that will be used in later exercises.
 
 > ![](./media/image8.png)
 
-2.  Find a folder
-    ‘**LabFiles-build-real-time-analytics-with-cosmos-db-in-microsoft-fabric-main’.**
+2.  Find a folder named **LabFiles**.
 
 > ![](./media/image9.png)
 
@@ -237,8 +236,7 @@ created by uploading JSON file.
 > generated](./media/image29.png)
 
 4.  On the file picker dialog, navigate to the lab files folder in the C
-    drive at **C:\LabFiles\Use
-    Case-build-real-time-analytics-with-cosmos-db-in-microsoft-fabric-main\data\nosql**,
+    drive at **C:\LabFiles**,
     select the file **customers_container.json** and then
     select **Open**.
 
@@ -649,8 +647,7 @@ the Kusto Query Language (KQL) to analyze it.
 
 9.  Browse for file in the **LabFIles** folder in C: drive.
 
-> Here’s the path: **C:\LabFiles\Use
-> Case-build-real-time-analytics-with-cosmos-db-in-microsoft-fabric-main\data\streaming**
+> Here’s the path: **C:\LabFiles**
 >
 > ![A screenshot of a computer Description automatically
 > generated](./media/image72.png)
@@ -1432,5 +1429,6 @@ enrich customer profiles and generate personalized recommendations. By
 completing these exercises, you gained end-to-end experience in
 designing, implementing, and consuming real-time insights in a modern
 data architecture powered by Microsoft Fabric.
+
 
 
