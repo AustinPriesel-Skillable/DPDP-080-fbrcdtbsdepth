@@ -1,6 +1,4 @@
-!Instructions[](https://raw.githubusercontent.com/LODSContent/All-MOC/refs/heads/master/MOC/@lab.LanguageCode/MSDepth-CS-Login.md)
 
-===
 
 # Use Case 1 – Build scalable data solutions with SQL database in Microsoft Fabric
 
@@ -1334,5 +1332,6 @@ GraphQL APIs for RAG applications, and creating insightful Power BI
 reports using semantic models.
 
        
+
 
 
