@@ -41,70 +41,70 @@ Capacity administrator of that trial.
 1.  Open your browser and browse the **Microsoft Fabric Page**
     +++https://app.fabric.microsoft.com/+++
 
-2.  In the **Microsoft Fabric** window, enter your given credentials,
-    and click on the **Submit** button.
+2.  In the **Microsoft Fabric** window, enter your given credentials,
+    and click on the **Submit** button.
 
     ![A close up of a white and green object AI-generated content may be
-    incorrect.](./media/image1.png)
+    incorrect.](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image1.png)
 
-3.  Then, In the **Microsoft** window enter the password and click on
-    the **Sign in** button.
+3.  Then, In the **Microsoft** window enter the password and click on
+    the **Sign in** button.
 
     ![A login screen with a red box and blue text AI-generated content may
-    be incorrect.](./media/image2.png) 
+    be incorrect.](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image2.png) 
 
-4.  In **Stay signed in?** window, click on the **Yes** button.
+4.  In **Stay signed in?** window, click on the **Yes** button.
 
     ![A computer screen shot of a computer error AI-generated content may
-    be incorrect.](./media/image3.png)
+    be incorrect.](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image3.png)
 
 5.  You’ll be navigated to the **Microsoft Fabric Home Page**.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image4.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image4.png)
 
 ### **Task-2: Enable SQL Database (Preview) for a capacity**
 
 1.  Go to the **Settings** option on the Fabric Home Page.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image5.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image5.png)
 
 2.  Select **Admin portal** settings from the drop-down menu.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image6.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image6.png)
 
 3.  In the Admin portal, select the **Fabric Capacity** tab.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image7.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image7.png)
 
 4.  Now, select the **capacity name** associated with your user account.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image8.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image8.png)
 
 5.  Select the **Delegated tenant settings** tab.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image9.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image9.png)
 
-6.  Navigate to the **SQL database (preview)** section and check the
+6.  Navigate to the **Users can create Fabric Items** section and check the
     checkbox for ‘**Override tenant admin selection**’.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image10.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image10.png)
 
 7.  Enable it for **All the users in capacity** and click on **Apply.**
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image11.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image11.png)
 
 8.  You will see the following message.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image12.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image12.png)
 
 9.  Now, wait for at least **15 minutes** before creating the SQL
     Database in Fabric.
@@ -114,7 +114,7 @@ Capacity administrator of that trial.
 
 ### **Task-3: Create a New Fabric Workspace**
 
-You can use an existing workspace or create a new Fabric workspace.  In
+You can use an existing workspace or create a new Fabric workspace.  In
 workspaces, you create collections of items such as lakehouses,
 warehouses, and reports. You must be a member of the Admin or Member
 roles for the workspace to create a SQL database.
@@ -124,30 +124,31 @@ To create a workspace:
 1.  Navigate to the Microsoft Fabric **Home** Page.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image13.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image13.png)
 
-2.  In the **Fabric** home page, select **+New workspace**.
+2.  In the **Fabric** home page, select **+New workspace**.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image14.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image14.png)
 
-3.  In the **Create a workspace tab**, enter the following details and
-    click on the **Apply** button.
+3.  In the **Create a workspace tab**, enter the following details and
+    click on the **Apply** button.
 
     |Title	|Title|
     |-------|-------|
-    |Name |+++Supply Chain Analytics WorkspaceXX+++ (XX can be a unique number)	|
+    |Name |+++Supply Chain Analytics Workspace - @Lab.LabInstance.Id+++	|
+	  |Advanced Section|-------|
     |License mode |select Fabric capacity	|
     |Semantic model storage format |select Small semantic model storage format	|
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image15.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image15.png)
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image16.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image16.png)
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image17.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image17.png)
 
 ## Exercise 2 – Create a SQL Database in Microsoft Fabric 
 
@@ -155,99 +156,99 @@ To create a workspace:
     databases**, and select **SQL database (preview) tile.**
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image18.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image18.png)
 
-2.  Provide a name for the **New Database** as
-    +++supply_chain_analytics_database+++ Select **Create** button.
-
-    ![A screenshot of a computer Description automatically
-    generated](./media/image19.png)
+2.  Provide a name for the **New Database** as
+    +++supply_chain_analytics_database+++ Select **Create** button.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image20.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image19.png)
+
+    ![A screenshot of a computer Description automatically
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image20.png)
 
 ## Exercise 3 – Ingest sample data and create objects and data 
 
 ### **Task-1: Open the Query Editor in the Fabric Portal**
 
 1.  Once the new database is created, open the database's home page.
-    Select **Sample Data**.
+    Select **Sample Data**.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image21.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image21.png)
 
-2.  Check the Notifications area to ensure the import is complete before
+2.  Check the Notifications area to ensure the import is complete before
     you proceed.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image22.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image22.png)
 
-3.  Notifications show you when the import of the sample data is
+3.  Notifications show you when the import of the sample data is
     complete. Your SQL database in Fabric now contains
-    the SalesLT schema and associated tables.
+    the SalesLT schema and associated tables.
 
     ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image23.png)
+    incorrect.](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image23.png)
 
 ### **Task-2: Use the SQL database in the SQL Editor (Copilot)**
 
-1.  In your database view, start by selecting **New Query** from the icon
+1.  In your database view, start by selecting **New Query** from the icon
     bar. This brings up a query editor.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image24.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image24.png)
 
 2.  Type a T-SQL comment at the top of the query, such as:
 
     +++-- Create a query that shows the total number of customers+++
 
-    Press Enter. You’ll get a result similar to this one:
+    Press Enter. You’ll get a result similar to this one:
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image25.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image25.png)
 
 3.  Pressing the **Tab** key implements the suggested code:
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image26.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image26.png)
 
 4.  Select **Run** button to run the query and review the results based
     on the query.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image27.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image27.png)
 
 5.  Select **Explain query** from the icon bar of the Query Editor.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image28.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image28.png)
 
 6.  **Explain query** option is used when you want to insert comments in
     your code to explain each major step.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image29.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image29.png)
 
 ### **Task-3: Insert data using Transact-SQL**
 
 The following steps use a T-SQL script to create a schema, table, and
 data for the simulated data for supply chain analysis.
 
-1.  Select the **New Query** button in the toolbar of the SQL database
+1.  Select the **New Query** button in the toolbar of the SQL database
     to create a new query.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image30.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image30.png)
 
-2.  Paste the following script in the Query area and select **Run** to
+2.  Paste the following script in the Query area and select **Run** to
     execute it. The following T-SQL script
 
-    1.  Creates a schema named **SupplyChain.**
+    1.  Creates a schema named **SupplyChain.**
 
-    2.  Creates a table named **SupplyChain.Warehouse**.
+    2.  Creates a table named **SupplyChain.Warehouse**.
 
-    3.  Populates the **SupplyChain.Warehouse** table with some randomly
-        created product data from **SalesLT.Product**.
+    3.  Populates the **SupplyChain.Warehouse** table with some randomly
+        created product data from **SalesLT.Product**.
 
     ```
     /* Create the Tutorial Schema called SupplyChain for all tutorial objects */
@@ -279,23 +280,23 @@ data for the simulated data for supply chain analysis.
     ```
 
 ![A screenshot of a computer Description automatically
-generated](./media/image31.png)
+generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image31.png)
 
 ![A screenshot of a computer Description automatically
-generated](./media/image32.png)
+generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image32.png)
 
 Your SQL database in Fabric database now includes Warehouse information.
 You'll use this data in a later step in this tutorial.
 
 3.  Expand the **SupplyChain** and then the **Tables** section from the **Explorer** pane. You
-    can select these tables in the **Explorer** pane, and the table data
+    can select these tables in the **Explorer** pane, and the table data
     is displayed – no need to write a query to see it.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image33.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image33.png)
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image34.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image34.png)
 
 ### **Task-4: Insert data using a Microsoft Fabric Pipeline**
 
@@ -307,10 +308,10 @@ activities that together perform a data ingestion task. Pipelines allow
 you to manage extract, transform, and load (ETL) activities instead of
 managing each one individually.
 
-Microsoft Fabric Pipelines can contain a Dataflow. **Dataflow
-Gen2** uses a Power Query interface that allows you to perform
+Microsoft Fabric Pipelines can contain a Dataflow. **Dataflow
+Gen2** uses a Power Query interface that allows you to perform
 transformations and other operations on the data. You'll use this
-interface to bring in data from the *Northwind Traders* company, which
+interface to bring in data from the *Northwind Traders* company, which
 Contoso partners with. They're currently using the same suppliers, so
 you'll import their data and show the names of these suppliers using a
 view that you'll create in another step in this tutorial.
@@ -318,81 +319,81 @@ view that you'll create in another step in this tutorial.
 To get started, open the SQL database view of the sample database in the
 Fabric portal.
 
-1.  Select the **Get Data** button from the menu bar and select **New Dataflow Gen2**
+1.  Select the **Get Data** button from the menu bar and select **New Dataflow Gen2**
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image35.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image35.png)
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image36.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image36.png)
 
-2.  In the Power Query view, select the **Get Data** button. This starts
+2.  In the Power Query view, select the **Get Data** button. This starts
     a guided process rather than jumping to a particular data area.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image37.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image37.png)
 
-3.  In the search box of the **Choose Data Source**, view
-    type +++**OData+++** and Select **OData** from the **New
-    sources** results.
-
-    ![A screenshot of a computer Description automatically
-    generated](./media/image38.png)
-
-4.  In the URL text box of the **Connect to data source** view, type the
-    text: +++https://services.odata.org/v4/northwind/northwind.svc/+++  for
-    the Open Data feed of the **Northwind sample** database. Select
-    the **Next** button to continue.
+3.  In the search box of the **Choose Data Source**, view
+    type +++**OData+++** and Select **OData** from the **New
+    sources** results.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image39.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image38.png)
+
+4.  In the URL text box of the **Connect to data source** view, type the
+    text: +++https://services.odata.org/v4/northwind/northwind.svc/+++  for
+    the Open Data feed of the **Northwind sample** database. Select
+    the **Next** button to continue.
+
+    ![A screenshot of a computer Description automatically
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image39.png)
 
 5.  From the Choose data window, select only the **Suppliers** table
     from the display options, review the table and proceed with clicking
     on **Create** button.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image40.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image40.png)
 
 6.  In the **Data Destination** section, make sure to check that the
     **SQL database** is connected.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image41.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image41.png)
 
-7.  Select the **Publish** button to start the data transfer.
+7.  Select the **Publish** button to start the data transfer.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image42.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image42.png)
 
 8.  You're returned to your Workspace view, where you can find the new
     Dataflow item. Wait until you receive a notification that the
     dataflow is published successfully.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image43.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image43.png)
 
 9.  Select **supply_chain_analytics_database** SQL database.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image44.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image44.png)
 
 10. Refresh the database by clicking on the three
-    dots **(...)** beside **supply_chain_analytics_database ,** then
-    navigate and click on **Refresh**.
+    dots **(...)** beside **supply_chain_analytics_database ,** then
+    navigate and click on **Refresh**.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image45.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image45.png)
 
-11. In the Explorer, expand the **dbo** **\> Tables** schema to display
-    the new table named **Suppliers.**
+11. In the Explorer, expand the **dbo** **\> Tables** schema to display
+    the new table named **Suppliers.**
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image46.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image46.png)
     
 
 12. The data is now ingested into your database. You can now create a
-    query that combines the data from the Suppliers table using this
+    query that combines the data from the Suppliers table using this
     tertiary table. You'll do this later in the tutorial.
 
 ## Exercise 4 – Query the database and Review autonomous features
@@ -401,15 +402,15 @@ Fabric portal.
 
 You can type Transact-SQL (T-SQL) statements in a query window.
 
-1.  In ribbon of the database in the Fabric portal, select the **New Query** button.
+1.  In ribbon of the database in the Fabric portal, select the **New Query** button.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image47.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image47.png)
 
 2.  Copy the following T-SQL script and paste it in the query window.
-    This sample script performs a simple TOP 10 query, and creates a
+    This sample script performs a simple TOP 10 query, and creates a
     view based on a simple analytical T-SQL query. Select
-    the **Run** button in the toolbar to execute the T-SQL query.
+    the **Run** button in the toolbar to execute the T-SQL query.
 
     ```
     -- Show the top 10 selling items 
@@ -435,42 +436,42 @@ You can type Transact-SQL (T-SQL) statements in a query window.
     ```
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image48.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image48.png)
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image49.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image49.png)
 
 ### **Task-2: Performance Monitoring in SQL database in Fabric**
 
 As your queries run in your SQL database in Fabric, the system collects
-performance metrics to display in the **Performance Dashboard**. You can
+performance metrics to display in the **Performance Dashboard**. You can
 use the Performance Dashboard to view database performance metrics, to
 identify performance bottlenecks, and find solutions to performance
 issues.
 
-1.  On the **Home** toolbar in the Query with the SQL query editor,
-    select **Performance summary**.
+1.  On the **Home** toolbar in the Query with the SQL query editor,
+    select **Performance summary**.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image50.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image50.png)
 
 2.  The entire performance summary is displayed such as CPU consumption,
     Allocated size, User connections etc.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image51.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image51.png)
 
 3.  To check the performance of Automatic Indexing, click on **View More** 
     in the Automatic Index section.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image52.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image52.png)
 
-4.  In the Fabric portal, the **Automatic Index** tab shows a history
+4.  In the Fabric portal, the **Automatic Index** tab shows a history
     and status of automatically created indexes
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image53.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image53.png)
 
 ### **Task-3: Backups in SQL database in Fabric** 
 
@@ -481,53 +482,55 @@ view of the Fabric portal.
 1.  Click on the **Database editor** to go back to the database page.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image54.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image54.png)
 
 2.  Select the **Settings** icon in the toolbar.
 
-    ![](./media/image55.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image55.png)
 
-3.  Select the **Backup retention policy** page. This view shows the
+3.  Select the **Backup retention policy** page. This view shows the
     recent point in time backups that have been taken on your database.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image56.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image56.png)
 
 4.  Click on the **Close**.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image57.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image57.png)
 
 ## Exercise 5 – Use the SQL analytics endpoint to query data 
 
 ### **Task-1: Query the data with the SQL analytics endpoint** 
 
 You can query any of the mirrored data in the SQL analytics endpoint
-using standard Transact-SQL statements that are compatible with a Fabric
-warehouse. 
+using standard Transact-SQL statements that are compatible with a Fabric
+warehouse. 
 
 1.  You can access this mirrored data by selecting the SQL analytics
     endpoint in your Workspace view.
+	
+	>[!Alert] If you are unable to select the **Endpoint** view, go back to the **Supply Chain Analytics Workspace** overview page, and select the database type: **SQL Analytics Endpoint**.
 
-    ![](./media/image58.png)
-
-    ![A screenshot of a computer Description automatically
-    generated](./media/image59.png)
-
-2.  On the **WideWorldImporters** page, click on **New SQL query**.
-
-    ![](./media/image60.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image58.png)
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image61.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image59.png)
+
+2.  On the **WideWorldImporters** page, click on **New SQL query**.
+
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image60.png)
+
+    ![A screenshot of a computer Description automatically
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image61.png)
 
 3.  In this step, create a view over the mirrored data, and then create
     a report to show the results.
 
     Ensure you're in the SQL analytics endpoint, and then open a new Query
     window using the icon bar that depicts a paper with the
-    letters **SQL** and paste the following Transact-SQL Code and
-    select **Run** to execute it.
+    letters **SQL** and paste the following Transact-SQL Code and
+    select **Run** to execute it.
 
     ```
     CREATE VIEW SupplyChain.vProductsBySupplier AS
@@ -567,17 +570,17 @@ warehouse. 
     GO   
     ```
 
-    ![](./media/image62.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image62.png)
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image63.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image63.png)
 
 4.  This T-SQL query creates three new SQL views under the SupplyChain
     schema as
-    - **SupplyChain.vProductsBySupplier**, **SupplyChain.vSalesByDate**,
-    and **SupplyChain.vTotalProductsByVendorLocation**
+    - **SupplyChain.vProductsBySupplier**, **SupplyChain.vSalesByDate**,
+    and **SupplyChain.vTotalProductsByVendorLocation**
 
-    ![](./media/image64.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image64.png)
 
 You can now use these views in analytics and reporting. You will create
 a report using these views in the further steps.
@@ -586,40 +589,40 @@ a report using these views in the further steps.
 
 ### **Task-1: Find the connection strings to the SQL database.**
 
-1.  Click on **supply_chain_analytics_database** from the top navigation
+1.  Click on **supply_chain_analytics_database** from the top navigation
     tab.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image65.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image65.png)
 
 2.  To get your server and database name, open your SQL database in
     Fabric portal view and select the **Settings** button in the icon
     bar.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image66.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image66.png)
 
-3.  Select **Connection Strings** and you'll see a long string that
-    starts with **Data Source...** From there, select the text between
-    the characters **tcp:** through the characters **,1433**. Ensure
+3.  Select **Connection Strings** and you'll see a long string that
+    starts with **Data Source...** From there, select the text between
+    the characters **tcp:** through the characters **,1433**. Ensure
     that you select the entire set of characters there and nothing more
     for the server name.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image67.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image67.png)
 
 4.  For the database name, select all the characters between the
-    characters **Initial Catalog=** and **;MultipleActiveResultSets**.
+    characters **Initial Catalog=** and **;MultipleActiveResultSets**.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image68.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image68.png)
 
 5.  Close the **Settings** menu.
 
-    ![](./media/image69.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image69.png)
 
 You can now use these SQL strings in your connection area for tools such
-as Power BI or SQL Server Management Studio. For Visual Studio Code with
+as Power BI or SQL Server Management Studio. For Visual Studio Code with
 the mssql extension, you can paste the entire connection string in the
 first text box where you make a database connection, so you don't have
 to select only the server and database names.
@@ -633,287 +636,287 @@ the system takes might not be as you desire, so you'll now change one
 portion of the data model for this SQL analytics endpoint to have a
 specific outcome.
 
-1.  Click on **supply_chain_analytics_database** SQL analytics endpoint
+1.  Click on **supply_chain_analytics_database** SQL analytics endpoint
     from the top navigation tab.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image70.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image70.png)
 
 2.  Click on the **New Semantic model** under the **Home** tab.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image71.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image71.png)
 
 3.  Select all the tables in **dbo** and **SupplyChain** schema. Also,
     include the three views you have created in **SupplyChain**.
 
-    ![](./media/image72.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image72.png)
     
-    ![](./media/image73.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image73.png)
 
 4.  Now, provide the name of the new semantic model as
     +++supplychain-model+++ and click on **Confirm**.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image74.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image74.png)
 
 5.  Navigate to the workspace and open the **semantic model** created.
 
    ![A screenshot of a computer Description automatically
-    generated](./media/image75.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image75.png)
 
 7.  If the below page will be displayed, click on **Open Semantic
     model** option from the top bar.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image76.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image76.png)
 
 8.  Make sure the semantic model is in **Editing** view to make any
     changes.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image77.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image77.png)
 
 9.  From the resulting view, zoom in and scroll over until you see
-    the **vTotalProductsByVendorLocation** object.
+    the **vTotalProductsByVendorLocation** object.
 
-    ![](./media/image78.png) 
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image78.png) 
 
-10.  In the properties, select the **Location** field, and expand
-    the **Advanced** properties section. You might need to scroll to
-    find it. Set the value of **Summarize by** to **None**. This ensures
+10.  In the properties, select the **Location** field, and expand
+    the **Advanced** properties section. You might need to scroll to
+    find it. Set the value of **Summarize by** to **None**. This ensures
     that when the field is used, it's a discrete number, not a
     mathematical summarization of that number.
 
-     [](./media/image79.png) 
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image79.png) 
 
 ### **Task-3: Create a report**
 
-Here, the task is to create a report based on the views you created in
+Here, the task is to create a report based on the views you created in
 the SQL analytics endpoint in previous steps.
 
 1.  From the semantic model page, navigate to ‘**File’** option and
     select **‘create a new report’** option.
 
-    ![](./media/image80.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image80.png)
 
 2.  Now the Power BI canvas appears.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image81.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image81.png)
 
-3.  Expand the **vTotalProductsByVendorLocation** data object. Select
+3.  Expand the **vTotalProductsByVendorLocation** data object. Select
     each of the fields you see there. The report takes a moment to
     gather the results to a text view. You can size this text box if
     desired.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image82.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image82.png)
 
 4.  Select in a blank area of the report canvas.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image83.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image83.png)
 
-5.  Select **Location** in the **Data** fields area.
+5.  Select **Location** in the **Data** fields area.
 
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image84.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image84.png)
 
 6.  Select a value in the box you just created – notice how the first
     selection of values follows the selection you make in the second
     box. Select that same value again to clear the selection.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image85.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image85.png)
     
 8.  Select in a blank area of the reporting canvas, and then select
-    the **Supplier** field.
+    the **Supplier** field.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image86.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image86.png)
 
 9.  Once again, you can select the name of a supplier and the first
     selection shows the results of just that supplier.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image87.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image87.png)
 
 ### **Task-4: Save the Power BI item** 
 
 You can save and share your report with other people in your
 organization.
 
-1.  Select the **Save** button in the icon box.
+1.  Select the **Save** button in the icon box.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image88.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image88.png)
 
 
-2.  Name the report +++suppliers_by_location_report+++ and ensure you select the correct Workspace
+2.  Name the report +++suppliers_by_location_report+++ and ensure you select the correct Workspace
     for this tutorial. Select **Save** button.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image89.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image89.png)
 
     
     ![A screenshot of a computer Description automatically
-    generated](./media/image90.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image90.png)
 
 ## Exercise 7 – Perform data analysis using Microsoft Fabric Notebooks
 
 ### **Task-1: Data analysis with T-SQL notebooks**
 
-1.  Click on **Supply Chain Analytics Workspace** from the left-sided
+1.  Click on **Supply Chain Analytics Workspace** from the left-sided
     navigation bar.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image91.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image91.png)
 
 2.  Select the workspace name again.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image92.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image92.png)
 
-3.  In the **Fabric** page, select **+New item**. Then, select
-    **Notebook** tile.
-
-    ![A screenshot of a computer Description automatically
-    generated](./media/image93.png)
-
-4.  In the icon bar, change the environment from **PySpark
-    (Python)** to **T-SQL**.
+3.  In the **Fabric** page, select **+New item**. Then, select
+    **Notebook** tile. Leave the default naming.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image94.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image93.png)
+
+4.  In the icon bar, change the environment from **PySpark
+    (Python)** to **T-SQL**.
+
+    ![A screenshot of a computer Description automatically
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image94.png)
 
 5.  In each code cell, there is a drop-down list for the code language.
     In the first cell in the Notebook, change the code language
-    from **PySpark (Python)** to **T-SQL**.
+    from **PySpark (Python)** to **T-SQL**.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image95.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image95.png)
 
-6.  Select the **+ Warehouses** button.
+6.  Select the **+ Warehouses** button.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image96.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image96.png)
 
 7.  Select the **SQL analytics endpoint** object that is named
     **supply_chain_analytics_database**. Select **Confirm**.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image97.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image97.png)
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image98.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image98.png)
 
-8.  Expand the database, expand **Schemas**. Expand
-    the **SupplyChain** schema. Expand **Views**, and locate the SQL
-    view named **vProductsBySupplier**.
+8.  Expand the database, expand **Schemas**. Expand
+    the **SupplyChain** schema. Expand **Views**, and locate the SQL
+    view named **vProductsBySupplier**.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image99.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image99.png)
 
 9.  Select the ellipses next to that view. and select the option that
-    says **SELECT TOP 100**.
+    says **SELECT TOP 100**.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image100.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image100.png)
 
 10. This creates a cell with T-SQL code that has the statements
-    pre-populated for you. Select the **Run Cell** button for the cell
+    pre-populated for you. Select the **Run Cell** button for the cell
     to run the query and return the results.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image101.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image101.png)
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image102.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image102.png)
 
 11. In the results, you can see not only the data requested, but buttons
     that allow you to view charts, save the data as another table,
     download, and more.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image103.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image103.png)
 
 12. To the side of the results you can see a new pane with quick
     **inspection** of the data elements, showing minimum and maximum
     values, missing data, and unique counts of the data returned.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image104.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image104.png)
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image105.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image105.png)
 
 13. Hovering between the code cells shows you a menu to add another
-    cell. Select the **+ Markdown** button.
+    cell. Select the **+ Markdown** button.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image106.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image106.png)
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image107.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image107.png)
 
 14. This places a text-based field where you can add information.
     Styling for the text is available in the icon bar, or you can select
-    the \</\> button to work with Markdown directly. The result of the
+    the \</\> button to work with Markdown directly. The result of the
     formatting show as a preview of the formatted text.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image108.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image108.png)
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image109.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image109.png)
 
-15. Select the **Save As** icon in the ribbon.
+15. Select the **Save As** icon in the ribbon.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image110.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image110.png)
 
-16. Enter the text +++**products_by_suppliers_notebook**+++. Ensure you
+16. Enter the text +++**products_by_suppliers_notebook**+++. Ensure you
     set the location to your tutorial Workspace. Select
-    the **Save** button to save the notebook.
+    the **Save** button to save the notebook.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image111.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image111.png)
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image112.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image112.png)
 
 ## Exercise 8 – Create an application with DevOps and GraphQL API
 
 ### **Task-1: Create a repository in the Azure DevOps project**
 
 1.  Open a new tab on your browser and paste this url to navigate to
-    Azure DevOps: +++https://dev.azure.com/ADOCourseOrg04+++ and Sign in
+    Azure DevOps: +++https://dev.azure.com/ADOCourseOrg04+++ and Sign in
     with the given credentials.
 
     ![A screenshot of a computer screen Description automatically
-    generated](./media/image119.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image119.png)
 
 2.  Select your project ‘**Supply-Chain-Disruption-App’**
 
-    ![](./media/image120.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image120.png)
 
 3.  Navigate to **Files** option under
     **Repos** section. From the repo **drop-down** at the top,
-    select **new repository**.
+    select **new repository**.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image121.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image121.png)
 
-4.  In the **Create a new repository** dialog, verify that Git is the
-    repository type and enter a name – **SupplyChainAnalytics** for your
+4.  In the **Create a new repository** dialog, verify that Git is the
+    repository type and enter a name – +++SupplyChainAnalytics+++ for your
     new repository. To add a **README**, check the checkbox.
 
-    When you're happy with the repo name and choices, select **Create**.
+    When you're happy with the repo name and choices, select **Create**.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image122.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image122.png)
 
 ### **Task-2: Connect your workspace to the source control (Azure DevOps)**
 
@@ -921,31 +924,31 @@ organization.
     the workspace you want to connect and select **Workspace settings** from top-right corner.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image123.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image123.png)
 
 2.  Under Git Integration settings, select **Azure DevOps** as your Git
     provider and the Entra user as well. Click on **Connect**.
 
-    ![](./media/image124.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image124.png)
 
 3.  You'll be **automatically signed** into the Azure Repos account
-    registered to the **Microsoft Entra user** signed into Fabric. 
+    registered to the **Microsoft Entra user** signed into Fabric. 
 
 4.  **Provide Repository Details:**
 
-    1.  **Organization:** Select your Azure DevOps organization
+    1.  **Organization:** Select your Azure DevOps organization
         **ADOCourseOrg** from the dropdown.
 
-    2.  **Project:** Choose the project **Supply-Chain-Disruption-App**
-        where your repository is located. 
+    2.  **Project:** Choose the project **Supply-Chain-Disruption-App**
+        where your repository is located. 
 
-    3.  **Git Repository:** Select the repository i.e.,
-        **SupplyChainAnalytics**. 
+    3.  **Git Repository:** Select the repository i.e.,
+        **SupplyChainAnalytics**. 
 
-    4.  **Branch:** Specify the **main** branch you want to connect the
+    4.  **Branch:** Specify the **main** branch you want to connect the
         workspace.
 
-    5.  **Git Folder:**  Specify a folder within the branch where Fabric
+    5.  **Git Folder:**  Specify a folder within the branch where Fabric
         items will be stored. If not created already in Azure DevOps
         portal, it’ll be created from here as well. You can mention the
         folder name as +++SampleWorkload+++.
@@ -953,7 +956,7 @@ organization.
     Click on **Connect and Sync**.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image125.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image125.png)
 
 5.  Now that you have mentioned the folder name which not created
     earlier, give a confirmation by clicking on **Create and Sync** to
@@ -961,15 +964,15 @@ organization.
     repository.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image126.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image126.png)
 
 6.  Workspace is now connected to the source control. The items in the
     workspace will automatically by synced. It might take 5-10 mins.
     Ensure that the Workspace is set up to be under source control and
-    all objects show **Synced** status.
+    all objects show **Synced** status.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image127.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image127.png)
 
 7.  In the Workspace view, you'll see the git icon, the branch you
     selected, and a message about the last time the Workspace was
@@ -978,21 +981,21 @@ organization.
     DevOps environment. **Open that link to continue**.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image128.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image128.png)
 
 8.  ![A screenshot of a computer Description automatically
-    generated](./media/image129.png)Once inside the Azure DevOps
-    environment, select the **Files** item in the explorer pane. The
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image129.png)Once inside the Azure DevOps
+    environment, select the **Files** item in the explorer pane. The
     objects synchronized with your SQL database in Fabric and the
     repository are displayed.
 
 ### **Task-3: Interact with SQL Database object schemas from source control in Azure Devops**
 
-1.  Expand the **suppy_chain_analytics_database.SQLDatabase**, then **dbo**,
-    then **Tables** and then **Suppliers.sql** object.
+1.  Expand the **suppy_chain_analytics_database.SQLDatabase**, then **dbo**,
+    then **Tables** and then **Suppliers.sql** object.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image130.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image130.png)
 
     Notice the T-SQL definition of the table in the object contents. In a
     production coding environment, this object would be altered using
@@ -1000,45 +1003,45 @@ organization.
     this lab, we are using Azure DevOps source control to make some
     changes to the database objects in the further steps.
 
-2.  Locate the **\[Fax\] column** definition line and select the **Edit** button. Edit the column
-    definition to **\[Fax\] NVARCHAR (255) NULL**,.
+2.  Locate the **\[Fax\] column** definition line and select the **Edit** button. Edit the column
+    definition to **\[Fax\] NVARCHAR (255) NULL**,.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image131.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image131.png)
 
-3.  Select the **Commit** button.
+3.  Select the **Commit** button.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image132.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image132.png)
 
-4.  Fill out the **Commit** message box
-    that appears and select the **Commit** button. Try to be descriptive
+4.  Fill out the **Commit** message box
+    that appears with the following: +++Updated Suppliers.sql [Fax] column+++ and select the **Commit** button. Try to be descriptive
     of every change in source control, for your and your team's benefit.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image133.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image133.png)
 
 5.  The commit writes the change to the repository.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image134.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image134.png)
 
-6.  Switch back to the SQL database in Fabric portal, and refresh the page and then select **Source
+6.  Switch back to the SQL database in Fabric portal, and refresh the page and then select **Source
     Control**. You have one update pending.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image135.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image135.png)
 
 7.  In production, you'll review these
-    changes. Select the **Update All** button. The update might take some time.
+    changes. Select the **Update All** button. The update might take some time.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image136.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image136.png)
 
 8.  Select the **supply_chain_analytics_database** from the workspace.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image137.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image137.png)
 
 9.  Open a new query window in your SQL database. Copy and paste the
     following T-SQL code to see the changes to the table live in the
@@ -1047,34 +1050,34 @@ organization.
     +++SELECT \* FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'Suppliers';+++
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image138.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image138.png)
 
 10. Enter the following T-SQL code that query to add a column
-    named Notes to the ***Suppliers*** table. Highlight just that
-    section of code and select the ***Run*** button:
+    named Notes to the ***Suppliers*** table. Highlight just that
+    section of code and select the ***Run*** button:
 
     +++ALTER TABLE Suppliers ADD Notes NVARCHAR(MAX);+++
 
     ![A screenshot of a computer screen Description automatically
-    generated](./media/image139.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image139.png)
 
 9.  Now return to the **tutorial Workspace** in the Fabric portal.
 
-    Select the **Source Control** button and notice that rather than an **Update**, your
-    system shows a **Change** request. Select the check box next to the
-    object name and then select the **Commit** button.
+    Select the **Source Control** button and notice that rather than an **Update**, your
+    system shows a **Change** request. Select the check box next to the
+    object name and then select the **Commit** button.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image140.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image140.png)
 
 10. The system commits the changes made
     in the query editor, and you can return to the Azure DevOps Portal
-    and navigate to the **Files** area and the dbo Schema and then
-    the **Tables** and Suppliers object to see the new column. *(You
+    and navigate to the **Files** area and the dbo Schema and then
+    the **Tables** and Suppliers object to see the new column. *(You
     might need to refresh the page to see the change.)*
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image141.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image141.png)
 
     You've now seen how you can interact with your SQL database object
     schemas from your source control in Azure DevOps.
@@ -1083,75 +1086,75 @@ organization.
 
 To create the API for GraphQL that you'll use for an application:
 
-1.  On the workspace page, select **+New item**. Then, select **API for
+1.  On the workspace page, select **+New item**. Then, select **API for
     GraphQL** tile.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image142.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image142.png)
 
-2.  Enter the text +++**supplier_impact_gql**+++ for the **Name** for
-    your item and select **Create**.
+2.  Enter the text +++**supplier_impact_gql**+++ for the **Name** for
+    your item and select **Create**.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image143.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image143.png)
 
 3.  Select **data source** card displayed to add the data for GraphQL.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image144.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image144.png)
 
-4.  On **Choose connectivity option** dialog box, select **Connect to
+4.  On **Choose connectivity option** dialog box, select **Connect to
     Fabric data sources with single-on (SSo) authentication** and click
     on **Ok** button.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image145.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image145.png)
 
 5.  In the OneLake catalog tab, select the
     **supply_chain_analytics_database** and click on the '**Connect'**
     button
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image146.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image146.png)
 
-6.  You are presented with a **Choose Data** panel. Scroll until you
-    find ***SupplyChain.vProductsBySuppliers***, the view you created
+6.  You are presented with a **Choose Data** panel. Scroll until you
+    find ***SupplyChain.vProductsBySuppliers***, the view you created
     earlier in this tutorial. Select it and click on **Load** button.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image147.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image147.png)
 
-7.  In the Query1 panel, replace the text you see there with the
+7.  In the Query1 panel, replace the text you see there with the
     following GraphQL query string:
 
     +++query { vProductsbySuppliers(filter: { SupplierLocationID: { eq: 7 }}) { items { CompanyName SupplierLocationID ProductCount } } }+++
 
-8.  Select the **Run **button in the Query1 window. The results of the
-    GraphQL query are returned to the Results window in JSON format.
+8.  Select the **Run** button in the Query1 window. The results of the
+    GraphQL query are returned to the Results window in JSON format.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image148.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image148.png)
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image149.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image149.png)
 
-9.  Select the **Copy** **endpoint** button in the ribbon.
+9.  Select the **Copy** **endpoint** button in the ribbon.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image150.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image150.png)
 
 10. Select the **Copy button** when the Copy link panel appears. Store
     this string in a notepad or other location to be used in the sample
     application for this tutorial.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image151.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image151.png)
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image152.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image152.png)
 
 **Your API for GraphQL is now ready to accept connections and
-requests. You can use the API editor to test and prototype GraphQL
+requests. You can use the API editor to test and prototype GraphQL
 queries and the Schema explorer to verify the data types and fields
 exposed in the API.**
 
@@ -1174,7 +1177,7 @@ the SQL In Fabric GraphQL endpoint you created in the previous task.
     **Download .NET SDK x64.**
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image153.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image153.png)
 
 3.  Once you download the **.NET SDK**, install it by double-clicking
     the downloaded **exe** file. Once you click on the EXE, it will open
@@ -1182,21 +1185,21 @@ the SQL In Fabric GraphQL endpoint you created in the previous task.
     button.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image154.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image154.png)
 
 4.  If everything is fine, once the installation is completed, you will
     get the following message saying the **installation was
     successful**: Click on the **Close** button.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image155.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image155.png)
 
 5.  Now, to verify what version is installed on your machine, type
-    the **dotnet –version** command in the command prompt and press the
+    the +++dotnet –version+++ command in the command prompt and press the
     enter button.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image156.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image156.png)
 
 ### **Task-2: Creating a web application in Visual Studio Code**
 
@@ -1208,7 +1211,7 @@ this particular task.
     **New terminal** option from the drop-down.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image157.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image157.png)
 
 2.  Open a terminal or command prompt. Run the following commands one by
     one to create a new ASP.NET Core web application.
@@ -1225,7 +1228,7 @@ this particular task.
     directory mentioned. You can check the **directory**, there must be a **GraphQLWebApp** folder created.
 
     ![A screen shot of a computer Description automatically
-    generated](./media/image158.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image158.png)
 
 3.  Now to proceed, **open** the web app
     folder in **Visual Studio Code** by navigating to **File** option in
@@ -1234,7 +1237,7 @@ this particular task.
     directory.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image159.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image159.png)
 
 4.  Open the terminal again and **check your NuGet configuration**
     otherwise the installation of packages in the next step will throw
@@ -1245,7 +1248,7 @@ this particular task.
     ``` 
 
     ![A screenshot of a computer program Description automatically
-    generated](./media/image160.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image160.png)
 
 5.  If you don’t see **nuget.org**, add it manually:
 
@@ -1254,7 +1257,7 @@ this particular task.
     ```
 
     ![A screenshot of a computer program Description automatically
-    generated](./media/image161.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image161.png)
 
 6.  Now, again verify **NuGet** configuration:
 
@@ -1263,7 +1266,7 @@ this particular task.
     ``` 
 
     ![A screenshot of a computer program Description automatically
-    generated](./media/image162.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image162.png)
 
 7.  **Add the necessary packages:**
 
@@ -1286,16 +1289,16 @@ this particular task.
     ```
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image163.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image163.png)
 
     ![A screen shot of a computer Description automatically
-    generated](./media/image164.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image164.png)
 
     ![A screenshot of a computer screen Description automatically
-    generated](./media/image165.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image165.png)
 
     ![A screenshot of a computer program Description automatically
-    generated](./media/image166.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image166.png)
 
 8.  **Add the Azure CLI software and log in to your subscription:**
 
@@ -1305,19 +1308,19 @@ this particular task.
     winget install -e --id Microsoft.AzureCLI
     ```
 
-![A computer screen with white text and blue text Description
-automatically generated](./media/image167.png)
+	![A computer screen with white text and blue text Description
+	automatically generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image167.png)
 
-![A screenshot of a computer error Description automatically
-generated](./media/image168.png)
+	![A screenshot of a computer error Description automatically
+	generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image168.png)
 
-![A screenshot of a computer Description automatically
-generated](./media/image169.png)
+	![A screenshot of a computer Description automatically
+	generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image169.png)
 
 9.  Install the Azure CLI Tools extension.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image170.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image170.png)
 
 10. **Note: Before running az login and to prevent the error that ‘az
     term not recognised’, make sure to restart the VS Code and then run
@@ -1332,11 +1335,11 @@ generated](./media/image169.png)
     On the login window, select **Work or School Account** to login.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image171.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image171.png)
 
-4.  **Modify the Program.cs file**:
+4.  **Modify the Program.cs file**:
 
-    - Open the Program.cs file and replace its content with the
+    - Open the Program.cs file and replace its content with the
       following code. You can also copy this entire code from this
       reference link: +++https://github.com/Azure-Samples/siftutorial/blob/main/README.md+++
 
@@ -1504,7 +1507,7 @@ generated](./media/image169.png)
     ```
 
     ![A screenshot of a computer program Description automatically
-    generated](./media/image172.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image172.png)
 
 5.  **Run the application:**
 
@@ -1518,32 +1521,32 @@ generated](./media/image169.png)
 5.  **Access the application**:
 
     - Right-click on the line in your command window that looks similar
-      to **http://localhost:5261** to see the output of your GraphQL
+      to **http://localhost:5261** to see the output of your GraphQL
       query.
 
     ![A screenshot of a computer program
-    Description automatically generated](./media/image174.png)
+    Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image174.png)
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image173.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image173.png)
 
 ## Exercise 10 – Clean up resources
 
 1.  In the left navigation bar, select the icon for your workspace to
     view all of the items it contains.
 
-    ![](./media/image175.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image175.png)
 
-2. In the menu on the top toolbar, select **Workspace settings**.
+2. In the menu on the top toolbar, select **Workspace settings**.
 
-    ![](./media/image176.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image176.png)
 
-3. In the **General** section, select **Remove this workspace**.
+3. In the **General** section, select **Remove this workspace**.
 
     ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image177.png)
+    incorrect.](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image177.png)
 
-    ![](./media/image178.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image178.png)
 
 ## Summary
 
