@@ -448,7 +448,7 @@ intelligent product recommendations.
 5.  Provide the following details:
 
 	- **Region:** @lab.CloudResourceGroup(ResourceGroup1).Location
-	- **Name:** as +++azure-openai-test-@lab.LabInstance.Id+++
+	- **Name:** +++azure-openai-test-@lab.LabInstance.Id+++
 
     ![A screenshot of a computer Description automatically
     generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image54.png)
@@ -1332,6 +1332,7 @@ GraphQL APIs for RAG applications, and creating insightful Power BI
 reports using semantic models.
 
        
+
 
 
 
