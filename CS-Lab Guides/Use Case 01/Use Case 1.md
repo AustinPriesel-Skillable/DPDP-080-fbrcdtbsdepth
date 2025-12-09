@@ -514,7 +514,7 @@ intelligent product recommendations.
     ![A screenshot of a login box Description automatically
     generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image64.png)
 
-16. Select your **Azure OpenAI** resource as **azure-openai-test09**
+16. Select your **Azure OpenAI** resource as **azure-openai-test-@Lab.Labinstance.Id**
 
     ![A screenshot of a computer Description automatically
     generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image65.png)
@@ -1332,6 +1332,7 @@ GraphQL APIs for RAG applications, and creating insightful Power BI
 reports using semantic models.
 
        
+
 
 
 
