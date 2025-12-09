@@ -63,54 +63,6 @@ Capacity administrator of that trial.
     ![A screenshot of a computer Description automatically
     generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image4.png)
 
-### **Task-2: Enable SQL Database (Preview) for a capacity**
-
-1.  Go to the **Settings** option on the Fabric Home Page.
-
-    ![A screenshot of a computer Description automatically
-    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image5.png)
-
-2.  Select **Admin portal** settings from the drop-down menu.
-
-    ![A screenshot of a computer Description automatically
-    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image6.png)
-
-3.  In the Admin portal, select the **Fabric Capacity** tab.
-
-    ![A screenshot of a computer Description automatically
-    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image7.png)
-
-4.  Now, select the **capacity name** associated with your user account.
-
-    ![A screenshot of a computer Description automatically
-    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image8.png)
-
-5.  Select the **Delegated tenant settings** tab.
-
-    ![A screenshot of a computer Description automatically
-    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image9.png)
-
-6.  Navigate to the **Users can create Fabric Items** section and check the
-    checkbox for ‘**Override tenant admin selection**’.
-
-    ![A screenshot of a computer Description automatically
-    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image10.png)
-
-7.  Enable it for **All the users in capacity** and click on **Apply.**
-
-    ![A screenshot of a computer Description automatically
-    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image11.png)
-
-8.  You will see the following message.
-
-    ![A screenshot of a computer Description automatically
-    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image12.png)
-
-9.  Now, wait for at least **15 minutes** before creating the SQL
-    Database in Fabric.
-
-    **Note**: After 15 minutes, you might need to refresh the page if you
-    can’t see the SQL Database (preview) option.
 
 ### **Task-3: Create a New Fabric Workspace**
 
@@ -1560,5 +1512,6 @@ concludes with the setup of a GraphQL API for application integration
 and guidance on cleaning up resources. By completing this tutorial,
 users gain practical experience in managing and analyzing supply chain
 data within a unified analytics environment.
+
 
 
