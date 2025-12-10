@@ -970,7 +970,7 @@ products.
     generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image98.png)
 
 5.  Keep the deployment name as it is **(gpt-4.1)** and click on the
-    **Deployment** **type** dropdown and select **Standard**. Click on
+    **Deployment** **type** dropdown and select **Standard**. In the **Resource location**, select **@lab.CloudResourceGroup(ResourceGroup1).Location** Click on
     **Deploy** button.
 
     ![A screenshot of a computer Description automatically
@@ -1332,6 +1332,7 @@ GraphQL APIs for RAG applications, and creating insightful Power BI
 reports using semantic models.
 
        
+
 
 
 
