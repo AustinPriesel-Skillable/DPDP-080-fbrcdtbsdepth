@@ -1457,11 +1457,12 @@ this particular task.
     // Run the application
     app.Run();
     ```
+	**Note: Make sure to replace the GraphQL endpoint at only one place in the program.cs file**
 
     ![A screenshot of a computer program Description automatically
     generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%202/media/image172.png)
 
-5.  **Run the application:**
+6.  **Run the application:**
 
     - In the terminal or command prompt, run the following command to
       start the application:
@@ -1512,6 +1513,7 @@ concludes with the setup of a GraphQL API for application integration
 and guidance on cleaning up resources. By completing this tutorial,
 users gain practical experience in managing and analyzing supply chain
 data within a unified analytics environment.
+
 
 
 
