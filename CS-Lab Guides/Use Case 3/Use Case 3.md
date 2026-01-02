@@ -647,8 +647,8 @@ the Kusto Query Language (KQL) to analyze it.
 ### **Task-3: Build Silver Layer for Analytics**
 
 1.  Replace the existing query in the query editor with the following
-    KQL code to create a Silver layer table that aggregates total sales
-    by menu item:
+    KQL codes to create a Silver layer table that aggregates total sales
+    by menu item. **You can paste these codes one after the other, or you can run them sequentially.**
 
     ```
     .create-or-alter function with (folder="Silver") vw_Pos_Sales() {
@@ -758,16 +758,8 @@ the Kusto Query Language (KQL) to analyze it.
    
     ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%203/media/image80.png)
 
-2.  Execute each query by highlighting one at a time (this can be
-    achieved by adding your cursor anywhere in the query), then
-    selecting **Run** to execute the code to create the Silver layer
-    functions.
+2.  Select **Run** to execute the code to create the Silver layer functions.
 
-    **Note: when you click on the query, it will get highlighted in blue
-    and you’ll notice that only one section of the query is getting
-    highlighted at a time. This way, you can run the query in two
-    sections.**
-   
     ![A screenshot of a computer Description automatically
     generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%203/media/image81.png)
    
@@ -1224,5 +1216,6 @@ enrich customer profiles and generate personalized recommendations. By
 completing these exercises, you gained end-to-end experience in
 designing, implementing, and consuming real-time insights in a modern
 data architecture powered by Microsoft Fabric.
+
 
 
