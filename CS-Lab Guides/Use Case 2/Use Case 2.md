@@ -1205,7 +1205,7 @@ this particular task.
 5.  If you don’t see **nuget.org**, add it manually:
 
     ```
-    dotnet nuget add source [https://api.nuget.org/v3/index.json -n nuget.org](https://api.nuget.org/v3/index.json%20-n%20nuget.org)
+    dotnet nuget add source https://api.nuget.org/v3/index.json -n nuget.org
     ```
 
     ![A screenshot of a computer program Description automatically
@@ -1513,6 +1513,7 @@ concludes with the setup of a GraphQL API for application integration
 and guidance on cleaning up resources. By completing this tutorial,
 users gain practical experience in managing and analyzing supply chain
 data within a unified analytics environment.
+
 
 
 
