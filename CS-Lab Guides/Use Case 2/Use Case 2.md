@@ -1457,7 +1457,8 @@ this particular task.
     // Run the application
     app.Run();
     ```
-	**Note: Remember, you have copied a GraphQL endpoint while creating the GraphQL API in the previous exercise. Replace the GraphQL endpoint in only one place in the program.cs file as shown in the image below.**
+    
+	**Note: So that you know, you have copied a GraphQL endpoint while creating the GraphQL API in the previous exercise. Replace the GraphQL endpoint in only one place in the program.cs file as shown in the image below.**
 
 	![A screenshot of a computer program Description automatically
     generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%202/media/image181.png)
@@ -1519,6 +1520,7 @@ concludes with the setup of a GraphQL API for application integration
 and guidance on cleaning up resources. By completing this tutorial,
 users gain practical experience in managing and analyzing supply chain
 data within a unified analytics environment.
+
 
 
 
