@@ -1483,6 +1483,9 @@ this particular task.
     ![A screenshot of a computer Description automatically
     generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%202/media/image173.png)
 
+	  ![A screenshot of a computer Description automatically
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%202/media/image180.png) 
+
 ## Exercise 10 – Clean up resources
 
 1.  In the left navigation bar, select the icon for your workspace to
@@ -1513,6 +1516,7 @@ concludes with the setup of a GraphQL API for application integration
 and guidance on cleaning up resources. By completing this tutorial,
 users gain practical experience in managing and analyzing supply chain
 data within a unified analytics environment.
+
 
 
 
