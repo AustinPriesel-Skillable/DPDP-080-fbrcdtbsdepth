@@ -710,7 +710,9 @@ the Kusto Query Language (KQL) to analyze it.
             LoyaltyPointsEarned, LoyaltyPointsRedeemed,
             CreatedAt
     }
+	```
 
+	```
     .create-or-alter function with (folder="Silver") vw_Pos_LineItems_Sales() {
         transactions_live
         | extend EventTs = coalesce(
@@ -921,10 +923,8 @@ DB, and then use that data to build a personalization model.
     generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%203/media/image102.png)
 
     - **workspace_guid**: The GUID of your Fabric workspace-
-    **22fa8fa7-431c-45e2-a1aa-d7a4462cfb83**. You can also find this in
-    the txt file named **fabric_guids.txt** in the **LabFiles** folder, or
-    by copying it from the browser address bar when you have your Fabric
-    workspace open (it is the first GUID in the URL).
+    **22fa8fa7-431c-45e2-a1aa-d7a4462cfb83**. You can copy it from the browser address bar when you have your Fabric
+    workspace open (it is the first GUID in the URL, as shown in the image below).
 
     ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%203/media/image103.png)
    
@@ -1078,6 +1078,8 @@ DB, and then use that data to build a personalization model.
     ![A screenshot of a computer Description automatically
     generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%203/media/image119.png)
 
+**Note- Remember to stop this notebook session from the notebook's menu at the top before starting the next task to avoid the session errors** 
+
 ### **Task-4: Reverse ETL and Build Personalization Model**
 
 1.  Continue to the next notebook in the workspace
@@ -1222,4 +1224,5 @@ enrich customer profiles and generate personalized recommendations. By
 completing these exercises, you gained end-to-end experience in
 designing, implementing, and consuming real-time insights in a modern
 data architecture powered by Microsoft Fabric.
+
 
