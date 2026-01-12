@@ -197,7 +197,7 @@ commerce application.
     tab in Fabric. On the left explorer pane, select **+ New container**.
 
     ![A screenshot of a computer Description automatically
-    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2003/media/image25.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%203/media/image140.png)
 
 6.  In the New container pane that opens on the right side, provide the
     following details to create a new customers container:
@@ -1216,6 +1216,7 @@ enrich customer profiles and generate personalized recommendations. By
 completing these exercises, you gained end-to-end experience in
 designing, implementing, and consuming real-time insights in a modern
 data architecture powered by Microsoft Fabric.
+
 
 
 
