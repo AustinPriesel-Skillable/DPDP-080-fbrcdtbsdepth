@@ -520,16 +520,16 @@ services within Fabric, such as lakehouses, notebooks, power BI etc.
 11. Enter the following code and run it:
 
     ```
-    display(spark.sql("""
-    SELECT
-        get_json_object(c.preferences, '$.favoriteDrink') AS FavoriteDrink,
-        COUNT(*) AS CustomerCount,
-        AVG(CAST(c.loyaltyPoints AS float)) AS AvgLoyaltyPoints
-    FROM customers AS c
-    WHERE get_json_object(c.preferences, '$.favoriteDrink') IS NOT NULL
-    GROUP BY get_json_object(c.preferences, '$.favoriteDrink')
-    ORDER BY CustomerCount DESC
-    """))
+	  display(spark.sql("""
+	SELECT
+	    get_json_object(c.preferences, '$.favoriteDrink') AS FavoriteDrink,
+	    COUNT(*) AS CustomerCount,
+	    AVG(CAST(c.loyaltyPoints AS float)) AS AvgLoyaltyPoints
+	FROM customers AS c
+	WHERE get_json_object(c.preferences, '$.favoriteDrink') IS NOT NULL
+	GROUP BY get_json_object(c.preferences, '$.favoriteDrink')
+	ORDER BY CustomerCount DESC
+	"""))
     ```
    
     This code uses Spark SQL to query the mirrored Cosmos DB data in the
@@ -1216,6 +1216,7 @@ enrich customer profiles and generate personalized recommendations. By
 completing these exercises, you gained end-to-end experience in
 designing, implementing, and consuming real-time insights in a modern
 data architecture powered by Microsoft Fabric.
+
 
 
 
