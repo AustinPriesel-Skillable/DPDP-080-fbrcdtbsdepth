@@ -556,7 +556,7 @@ a report using these views in the further steps.
 
 3.  Select **Connection Strings** and you'll see a long string that
     starts with **Data Source...** From there, select the text between
-    the characters **tcp:** through the characters **,1433**. Ensure
+    the characters between **DataSource** and **1433**. Ensure
     that you select the entire set of characters there and nothing more
     for the server name.
 
@@ -1520,6 +1520,7 @@ concludes with the setup of a GraphQL API for application integration
 and guidance on cleaning up resources. By completing this tutorial,
 users gain practical experience in managing and analyzing supply chain
 data within a unified analytics environment.
+
 
 
 
