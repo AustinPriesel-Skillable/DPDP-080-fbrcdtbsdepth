@@ -552,21 +552,21 @@ intelligent product recommendations.
 
 ### **Task-3: Setup of database credential**
 
-A database scoped credential is a record in the database that contains
+A database-scoped credential is a record in the database that contains
 authentication information for connecting to a resource outside the
 database. For this task, we will be creating one that contains the api
 key for connecting to Azure OpenAI services.
 
-22. Navigate to Microsoft Fabric portal and open a new query editor
+22. Navigate to the Microsoft Fabric portal and open a new query editor
     window.
 
     ![A screenshot of a computer Description automatically
     generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image71.png)
 
-23. Copy and Paste the below code and click the **Run** button. This
-    code is used to create a database scoped credential with Azure
+23. Copy and paste the code below and click the **Run** button. This
+    code is used to create a database-scoped credential with Azure
     OpenAI endpoint.
-    **Replace the OpenAI Endpoint and Key wherever it is written in this query.**
+    **Note: Replace the OpenAI Endpoint and Key wherever they are written in this query.**
 
     ```
     if not exists(SELECT * FROM sys.symmetric_keys WHERE [name] = '##MS_DatabaseMasterKey##')
@@ -605,9 +605,9 @@ embeddings for the products and store the vector arrays in that column.
     ![A screenshot of a computer Description automatically
     generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image73.png)
 
-25. Copy and Paste the below T-SQL code to a new SQL query window and
-    click **Run** button. This code adds a vector datatype as well as
-    chunk column to the Product table. Chunk will store the text we send
+25. Copy and paste the below T-SQL code to a new SQL query window and
+    click the **Run** button. This code adds a vector datatype as well as
+    a chunk column to the Product table. Chunk will store the text we send
     over to the embeddings REST endpoint.
 
     ```
@@ -623,6 +623,8 @@ embeddings for the products and store the vector arrays in that column.
     procedure that will create embeddings for text we supply as an
     input. Copy and paste the following T-SQL code into a new query
     window and click **Run** button.
+    
+	**Note: Replace the OpenAI Endpoint and Key wherever they are written in this query.**
 
     ```
     CREATE or ALTER PROCEDURE SalesLT.create_embeddings
@@ -642,7 +644,7 @@ embeddings for the products and store the vector arrays in that column.
         EXEC @retval = sp_invoke_external_rest_endpoint
             @url = @url,
             @method = 'POST',
-            @credential = [Paste the OpenAI Endpoint here],
+            @credential = [Paste the OpenAI Endpoint here], 
             @payload = @payload,
             @response = @response output;
     END try
@@ -679,12 +681,12 @@ embeddings for the products and store the vector arrays in that column.
     ![A screenshot of a computer Description automatically
     generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image76.png)
 
-27. Again, open a new query editor.
+28. Again, open a new query editor.
 
     ![A screenshot of a computer Description automatically
     generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image77.png)
 
-28. Run the following T-SQL query to create embeddings for all products
+29. Run the following T-SQL query to create embeddings for all products
     in the Products table. This code will take 40-90 seconds to run.
 
     ```
@@ -719,12 +721,12 @@ embeddings for the products and store the vector arrays in that column.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image78.png)
 
-29. Open a new query editor window.
+30. Open a new query editor window.
 
     ![A screenshot of a computer Description automatically
     generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image79.png)
 
-30. To ensure all the embeddings were created, run the following code
+31. To ensure all the embeddings were created, run the following code
     and you should get 0 for the result.
 
     ```
@@ -734,12 +736,12 @@ embeddings for the products and store the vector arrays in that column.
     ![A screenshot of a computer Description automatically
     generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image80.png)
 
-31. Open a new query editor.
+32. Open a new query editor.
 
     ![A screenshot of a computer Description automatically
     generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image81.png)
 
-32. Run the query to see the results of the above update to the Products
+33. Run the query to see the results of the above update to the Products
     table. You can see that the chunk column is the combination of
     multiple data points about a product and the embeddings column
     contains the vector arrays.
@@ -976,7 +978,7 @@ products.
     ![A screenshot of a computer Description automatically
     generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image99.png)
 
-6.  Navigate to Deployment section from the left navigation pane and
+6.  Navigate to the Deployment section from the left navigation pane, and
     there you’ll see the gpt-4.1 model as succeeded.
     
     ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image100.png)
@@ -1012,7 +1014,7 @@ application.
     @answer nvarchar(max) output
 
     AS
-
+	--Remove the square brackets and paste the OpenAI Endpoint below
     DECLARE @url nvarchar(4000) = '[Paste OpenAI Endpoint here and remove the square brackets]openai/deployments/gpt-4.1/chat/completions?api-version=2024-06-01';
     DECLARE @payload nvarchar(max) = N'{
         "messages": [
@@ -1037,6 +1039,7 @@ application.
         @url = @url,
         @method = 'POST', 
         @payload = @payload,
+    	--Paste the OpenAI Endpoint within the square brackets below.
         @credential = [Paste OpenAI Endpoint here],    
         @timeout = 230,
         @response = @response output;
@@ -1150,7 +1153,7 @@ application.
     ```
     exec SalesLT.find_products_chat_api 'I am looking for a red bike'
     ```
-    **Note:** This query has resulted in NULL value if you haven’t created model deployment for gpt-4.1 in the previous task.
+    **Note:** This query has resulted in a NULL value if you haven’t created a model deployment for gpt-4.1 in the previous task.
 
     ![A screenshot of a computer Description automatically
     generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%2001/media/image108.png)
@@ -1324,17 +1327,8 @@ endpoint in Fabric using Copilot.
 Congratulations on successfully completing a comprehensive hands-on
 journey in building scalable, AI-ready data solutions using SQL Database
 in Microsoft Fabric. This lab offered an end-to-end experience in
-designing, building, and operationalizing modern data solutions,
+designing, building, and operationalising modern data solutions,
 covering key areas such as an introduction to SQL Database in Fabric,
 exploring Copilot capabilities for SQL Database, implementing
 Retrieval-Augmented Generation (RAG) with Azure OpenAI, developing
-GraphQL APIs for RAG applications, and creating insightful Power BI
-reports using semantic models.
-
-       
-
-
-
-
-
-
+GraphQL APIs for RAG applications, and creating insightful Power BI reports using semantic models.
