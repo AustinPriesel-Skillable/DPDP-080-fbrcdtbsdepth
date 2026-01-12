@@ -268,7 +268,7 @@ that everything is working as expected.
     loyalty points:
 
     ```
-    SELECT TOP 10
+        SELECT TOP 10
         c.customerId,    
         c.name,    
         c.loyaltyPoints,    
@@ -280,7 +280,7 @@ that everything is working as expected.
     ![A screenshot of a computer Description automatically
     generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%203/media/image34.png)
 
-3.  Select the **Execute Query** button on the top menu ribbon to run
+4.  Select the **Execute Query** button on the top menu ribbon to run
     the query. You should see the results displayed below the query
     editor.
 
@@ -293,13 +293,13 @@ that everything is working as expected.
    
     ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%203/media/image36.png)
 
-4.  Create another new SQL query in the same **customers** container to
+5.  Create another new SQL query in the same **customers** container to
     analyze customer recommendations.
 
     ![A screenshot of a computer Description automatically
     generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%203/media/image37.png)
 
-5.  Enter the following query in the query editor and execute it by
+6.  Enter the following query in the query editor and execute it by
     clicking on the **Execute query** button.
 
     ```
@@ -322,11 +322,11 @@ that everything is working as expected.
    
     ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%203/media/image38.png)
 
-6.  Create another new SQL query in the same **customers** container.
+7.  Create another new SQL query in the same **customers** container.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%203/media/image39.png)
 
-7.  In a new query editor, enter the following query to demonstrate
+8.  In a new query editor, enter the following query to demonstrate
     scalar expressions. This query calculates a customer's membership
     tier based on their total loyalty points:
 
@@ -1216,6 +1216,7 @@ enrich customer profiles and generate personalized recommendations. By
 completing these exercises, you gained end-to-end experience in
 designing, implementing, and consuming real-time insights in a modern
 data architecture powered by Microsoft Fabric.
+
 
 
 
