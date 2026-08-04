@@ -1,3 +1,14 @@
+---
+lab:
+  title: 'Exercise 1: Provisioning Cosmos DB in Fabric (Operational Data Store)'
+  description: This is the first exercise in the lab where you will create a Cosmos DB database in Microsoft Fabric to serve as the operational data store for Fourth Coffee's commerce application.
+  duration: 50 minutes
+  level: 200
+  islab: true
+  primarytopics:
+    - Microsoft Fabric
+---
+
 # Exercise 1: Provisioning Cosmos DB in Fabric (Operational Data Store)
 
 This is the first exercise in the lab where you will create a Cosmos DB database in Microsoft Fabric to serve as the operational data store for Fourth Coffee's commerce application.
