@@ -1,3 +1,16 @@
+---
+lab:
+  title: Use Case 02 – Build a Supply Chain Disruption Response App using SQL database in Microsoft Fabric
+  description: In this exercise, we will be creating an application that shows all affected Suppliers if a Location has a supply chain break, due to natural disasters or other interruptions. This code shows how to create an ASP.NET application that uses a GraphQL Query to access a Query in the SQL In Fabric GraphQL endpoint you created in the previous task.
+  duration: 10 minutes
+  level: 500
+  islab: true
+  primarytopics:
+    - .NET
+    - ASP.NET
+    - Microsoft Fabric
+---
+
 ## Use Case 02 – Build a Supply Chain Disruption Response App using SQL database in Microsoft Fabric
 
 **Introduction**
