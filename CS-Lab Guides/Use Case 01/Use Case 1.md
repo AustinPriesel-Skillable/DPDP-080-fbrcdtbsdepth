@@ -1,3 +1,14 @@
+---
+lab:
+  title: Use Case 1 – Build scalable data solutions with SQL database in Microsoft Fabric
+  description: In this section you will create a SQL database and load it with data.
+  duration: 182 minutes
+  level: 400
+  islab: true
+  primarytopics:
+    - Microsoft Fabric
+---
+
 # **Use Case 1 – Build scalable data solutions with SQL database in Microsoft Fabric** 
 
 ## **Introduction**
