@@ -1094,7 +1094,7 @@ DB, and then use that data to build a personalization model.
     -- =============================
     -- COPY lines (FactSalesLineItems)
     -- =============================
-    COPY INTO dbo.FactSalesLineItems
+    COPY INTO dbo.FactSalesLineItem
     (
         TransactionId  1,
         SalesKey       2,
