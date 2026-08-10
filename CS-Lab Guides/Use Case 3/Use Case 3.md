@@ -577,13 +577,13 @@ services within Fabric, such as lakehouses, notebooks, power BI etc.
     use it in various Fabric services. For example, you can create a
     notebook to analyze the data.
 
-    ![A screenshot of a computer Description automatically
+     ![A screenshot of a computer Description automatically
     generated](./media/image69.png)
 
 11.  From the top menu ribbon, select **Open notebook** dropdown, then
     select **New notebook**.
 
-    ![](./media/image70.png)
+![](./media/image153.png)
 
 11. Hover below the existing code cell and click on the **+ Code** to add
     a new code cell.
