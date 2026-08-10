@@ -1280,6 +1280,8 @@ their preferences and purchase history.
     ![A screenshot of a computer Description automatically
     generated](./media/image149.png)
 
+**Note: If you're unable to find the customer details. Navigate to VS Code and enter Ctrl+C to shut down the application. Then, first run the 'az login' command and then start the application again.**
+
 ## Conclusion
 
 In this hands-on lab, you built a complete real-time analytics solution
