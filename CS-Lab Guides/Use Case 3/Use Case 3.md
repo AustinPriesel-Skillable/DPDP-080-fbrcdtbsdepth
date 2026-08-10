@@ -903,9 +903,9 @@ DB, and then use that data to build a personalization model.
     SELECT ShopId, ShopKey, IsActive FROM dbo.DimShop
     GO
 
-    CREATE OR ALTER VIEW dbo.vDimMenuItemKey AS 
-    SELECT MenuItemId, MenuItemKey, IsActive FROM dbo.DimMenuItem
-    GO
+    CREATE OR ALTER VIEW dbo.vDimMenuItemKey AS
+    SELECT menuItemId AS MenuItemId, menuItemKey AS MenuItemKey, isActive AS IsActive
+    FROM dbo.DimMenu;
 
     CREATE OR ALTER VIEW dbo.vFactSalesMaxKey AS 
     SELECT
