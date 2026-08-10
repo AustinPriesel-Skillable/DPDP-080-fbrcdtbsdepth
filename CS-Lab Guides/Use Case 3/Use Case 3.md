@@ -518,8 +518,6 @@ services within Fabric, such as lakehouses, notebooks, power BI etc.
     
     ORDER BY TotalRevenue DESC;
     ```
- 
-    ![](./media/image150.png)
 
 4.  Select **Run** to execute the query. This cross-database query
     demonstrates the power of Fabric's unified analytics platform by
@@ -531,7 +529,7 @@ services within Fabric, such as lakehouses, notebooks, power BI etc.
 
     - Menu item data from Cosmos DB (menuitems container)
 
-    ![](./media/image61.png)
+    ![](./media/image150.png)
 
 ### **Task-3: Access mirrored data from a Fabric Lakehouse**
 
