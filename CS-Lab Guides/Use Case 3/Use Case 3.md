@@ -544,9 +544,9 @@ services within Fabric, such as lakehouses, notebooks, power BI etc.
     ![A screenshot of a computer Description automatically
     generated](./media/image63.png)
 
-3.  In the lakehouse, select **Get data**, then select **New shortcut**.
+3.  In the lakehouse, select **Get data**, then select **New table shortcut**.
 
-  ![](./media/image64.png)
+  ![](./media/image151.png)
 
 4.  In the **New shortcut** dialog, select **Microsoft OneLake**.
 
