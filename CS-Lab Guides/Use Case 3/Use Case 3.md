@@ -558,36 +558,40 @@ services within Fabric, such as lakehouses, notebooks, power BI etc.
 
     ![](./media/image66.png)
 
-6.  On the next page, expand **Tables** and then **fc_commerce_cosmos** schema, then select the
+6.  Make sure **Passthrough Identity** is selected and click on **Connect**.
+
+   ![](./media/image152.png)
+   
+8.  On the next page, expand **Tables** and then **fc_commerce_cosmos** schema, then select the
     mirrored **customers** container. Select **Next**.
 
     ![](./media/image67.png)
 
-7.  On the final page, review the summary and select **Create** to
+9.  On the final page, review the summary and select **Create** to
     create the table shortcuts in the lakehouse.
 
     ![A screenshot of a computer Description automatically
     generated](./media/image68.png)
 
-8.  The data is now loaded. Once the data is in the lakehouse, you can
+10.  The data is now loaded. Once the data is in the lakehouse, you can
     use it in various Fabric services. For example, you can create a
     notebook to analyze the data.
 
     ![A screenshot of a computer Description automatically
     generated](./media/image69.png)
 
-9.  From the top menu ribbon, select **Open notebook** dropdown, then
+11.  From the top menu ribbon, select **Open notebook** dropdown, then
     select **New notebook**.
 
     ![](./media/image70.png)
 
-10. Hover below the existing code cell and click on the **+ Code** to add
+11. Hover below the existing code cell and click on the **+ Code** to add
     a new code cell.
 
     ![A screenshot of a computer Description automatically
     generated](./media/image71.png)
 
-11. Enter the following code and run it:
+12. Enter the following code and run it:
 
     ```
       display(spark.sql("""
@@ -608,7 +612,7 @@ services within Fabric, such as lakehouses, notebooks, power BI etc.
     ![A screenshot of a computer Description automatically
     generated](./media/image72.png)
 
-12. **Run** the code to see the output.
+13. **Run** the code to see the output.
 
     ![A screenshot of a computer Description automatically
     generated](./media/image73.png)
