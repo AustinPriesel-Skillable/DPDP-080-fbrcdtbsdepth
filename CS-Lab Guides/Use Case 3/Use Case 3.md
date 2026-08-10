@@ -580,8 +580,8 @@ services within Fabric, such as lakehouses, notebooks, power BI etc.
      ![A screenshot of a computer Description automatically
     generated](./media/image69.png)
 
-11.  From the top menu ribbon, select **Open notebook** dropdown, then
-    select **New notebook**.
+11.  From the top menu ribbon, select the **Analyse data with** dropdown, then
+    select **Notebook > New notebook**.
 
 ![](./media/image153.png)
 
