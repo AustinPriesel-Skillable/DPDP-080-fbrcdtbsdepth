@@ -472,23 +472,54 @@ services within Fabric, such as lakehouses, notebooks, power BI etc.
     SELECT
         JSON_VALUE(c.preferences, '$.favoriteDrink') AS FavoriteDrink,
         COUNT(DISTINCT c.customerId) AS TotalCustomers,
-        AVG(CAST(c.loyaltyPoints AS decimal(10,2))) AS AvgLoyaltyPoints,
-        SUM(COALESCE(fs.TotalAmount, 0.0)) AS TotalRevenue,
-        SUM(COALESCE(fs.LoyaltyPointsEarned, 0)) AS TotalPointsEarned,
-        SUM(COALESCE(fs.LoyaltyPointsRedeemed, 0)) AS TotalPointsRedeemed,
-        AVG(CAST(fs.TotalQuantity AS decimal(10,2))) AS AvgItemsPerOrder,
+    
+        AVG(
+            TRY_CAST(c.loyaltyPoints AS decimal(18,2))
+        ) AS AvgLoyaltyPoints,
+    
+        SUM(
+            COALESCE(
+                TRY_CAST(fs.TotalAmount AS decimal(18,2)),
+                CAST(0 AS decimal(18,2))
+            )
+        ) AS TotalRevenue,
+    
+        SUM(
+            COALESCE(
+                TRY_CAST(fs.LoyaltyPointsEarned AS decimal(18,2)),
+                CAST(0 AS decimal(18,2))
+            )
+        ) AS TotalPointsEarned,
+    
+        SUM(
+            COALESCE(
+                TRY_CAST(fs.LoyaltyPointsRedeemed AS decimal(18,2)),
+                CAST(0 AS decimal(18,2))
+            )
+        ) AS TotalPointsRedeemed,
+    
+        AVG(
+            TRY_CAST(fs.TotalQuantity AS decimal(18,2))
+        ) AS AvgItemsPerOrder,
+    
         COUNT(DISTINCT fs.TransactionId) AS TotalTransactions
+    
     FROM [fc_commerce_cosmos].[fc_commerce_cosmos].[customers] AS c
+    
     LEFT JOIN [fc_commerce_wh].[dbo].[DimCustomer] AS dc
         ON dc.CustomerId = c.customerId
+    
     LEFT JOIN [fc_commerce_wh].[dbo].[FactSales] AS fs
         ON fs.CustomerKey = dc.CustomerKey
+    
     WHERE JSON_VALUE(c.preferences, '$.favoriteDrink') IS NOT NULL
+    
     GROUP BY JSON_VALUE(c.preferences, '$.favoriteDrink')
+    
     ORDER BY TotalRevenue DESC;
     ```
  
-    ![](./media/image60.png)
+    ![](./media/image150.png)
 
 4.  Select **Run** to execute the query. This cross-database query
     demonstrates the power of Fabric's unified analytics platform by
