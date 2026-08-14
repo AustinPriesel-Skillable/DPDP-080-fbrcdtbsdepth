@@ -1,3 +1,14 @@
+---
+lab:
+  title: Fabric Environment Setup
+  description: In this first part of the lab, you set up the Microsoft Fabric environment needed to complete the exercises in this lab.
+  duration: 40 minutes
+  level: 200
+  islab: true
+  primarytopics:
+    - Microsoft Fabric
+---
+
 # Fabric Environment Setup
 
 In this first part of the lab, you set up the Microsoft Fabric environment needed to complete the exercises in this lab.

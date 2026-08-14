@@ -1,3 +1,14 @@
+---
+lab:
+  title: 'Exercise 5: Serve Personalized Recommendations from Cosmos DB'
+  description: In this final exercise, you will enhance the demo application to serve personalized menu item recommendations stored in Microsoft Fabric Cosmos DB. This will allow customers to see AI-generated suggestions based on their preferences and purchase history.
+  duration: 18 minutes
+  level: 200
+  islab: true
+  primarytopics:
+    - Microsoft Fabric
+---
+
 # Exercise 5: Serve Personalized Recommendations from Cosmos DB
 
 In this final exercise, you will enhance the demo application to serve personalized menu item recommendations stored in Microsoft Fabric Cosmos DB. This will allow customers to see AI-generated suggestions based on their preferences and purchase history.

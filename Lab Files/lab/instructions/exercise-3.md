@@ -1,3 +1,12 @@
+---
+lab:
+  title: 'Exercise 3: Real-Time Streaming of POS Events'
+  description: In this exercise, you will ingest and query the streaming data and use the Kusto Query Language (KQL) to analyze it.
+  duration: 78 minutes
+  level: 100
+  islab: true
+---
+
 # Exercise 3: Real-Time Streaming of POS Events
 
 In this exercise, you will ingest and query the streaming data and use the Kusto Query Language (KQL) to analyze it.

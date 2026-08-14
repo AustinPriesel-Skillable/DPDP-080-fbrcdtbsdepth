@@ -1,3 +1,15 @@
+---
+lab:
+  title: 'Exercise 2: Cross-Database Analytics (Cosmos DB to Data Warehouse)'
+  description: In this exercise, you will explore how Cosmos DB in Microsoft Fabric automatically mirrors your data to OneLake, allowing for cross-database querying. You will also learn how to Cosmos DB integrates with other services within Fabric, such as lakehouses, notebooks, power BI etc.
+  duration: 52 minutes
+  level: 300
+  islab: true
+  primarytopics:
+    - Microsoft Fabric
+    - Power BI
+---
+
 # Exercise 2: Cross-Database Analytics (Cosmos DB to Data Warehouse)
 
 In this exercise, you will explore how Cosmos DB in Microsoft Fabric automatically mirrors your data to OneLake, allowing for cross-database querying. You will also learn how to Cosmos DB integrates with other services within Fabric, such as lakehouses, notebooks, power BI etc.
