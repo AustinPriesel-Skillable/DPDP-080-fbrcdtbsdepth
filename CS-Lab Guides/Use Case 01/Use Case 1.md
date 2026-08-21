@@ -1308,7 +1308,7 @@ Search bar.**
     ![A screenshot of a computer Description automatically
     generated](./media/image111.png)
 
-5.  Click the **explore new data** and **Create a blank report**.
+5.  Navigate to **File** and select **Create new report** option.
 
     ![A screenshot of a computer Description automatically
     generated](./media/image121.png)
