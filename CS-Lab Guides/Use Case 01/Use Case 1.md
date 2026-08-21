@@ -1298,7 +1298,7 @@ generated](./media/image109.png)
 **\[IMPORTANT\] If tables are not visible. Click Refresh icon next to
 Search bar.**
 
-    ![A screenshot of a computer Description automatically
+![A screenshot of a computer Description automatically
     generated](./media/image110.png)
 
 4.  Click on the workspace and look for the newly created **semantic
