@@ -1299,7 +1299,7 @@ generated](./media/image109.png)
 Search bar.**
 
 ![A screenshot of a computer Description automatically
-    generated](./media/image110.png)
+    generated](./media/image120.png)
 
 4.  Click on the workspace and look for the newly created **semantic
     model - product_insight**. Select the **product_insight** semantic
@@ -1311,7 +1311,7 @@ Search bar.**
 5.  Click the **explore new data** and **Create a blank report**.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image112.png)
+    generated](./media/image121.png)
 
 6.  Click on **Copilot**. On the **right side** of the page,
     the **Copilot blade** opens.
