@@ -1224,10 +1224,10 @@ application.
    generated](./media/image104.png)
 
 8.  Choose the stored procedure in the results. You can ensure it is
-    the **find_products_chat_api** stored procedure by hovering over it
+    the **find_products_api** stored procedure by hovering over it
     with your mouse/pointer. It will also indicate the selected database
     item in the preview section. It should state "**Preview data:
-    dbo.find_products_chat_api**". Click on **Load** button.
+    dbo.find_products_api**". Click on **Load** button.
 
    ![A screenshot of a computer Description automatically
    generated](./media/image105.png)
