@@ -289,23 +289,24 @@ Fabric portal.
     ![A screenshot of a computer Description automatically
     generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%202/media/image35.png)
 
-    ![A screenshot of a computer Description automatically
-    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%202/media/image36.png)
+2.  Keep the name as is for now and click on **Create**
 
-2.  In the Power Query view, select the **Get Data** button. This starts
+   ![A screenshot of a login box Description automatically generated](./media/image182.png)
+
+4.  In the Power Query view, select the **Get Data** button. This starts
     a guided process rather than jumping to a particular data area.
 
     ![A screenshot of a computer Description automatically
-    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%202/media/image37.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%202/media/image183.png)
 
-3.  In the search box of the **Choose Data Source**, view
+5.  In the search box of the **Choose Data Source**, view
     type +++**OData+++** and Select **OData** from the **New
     sources** results.
 
     ![A screenshot of a computer Description automatically
     generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%202/media/image38.png)
 
-4.  In the URL text box of the **Connect to data source** view, type the
+6.  In the URL text box of the **Connect to data source** view, type the
     text: +++https://services.odata.org/v4/northwind/northwind.svc/+++  for
     the Open Data feed of the **Northwind sample** database. Select
     the **Next** button to continue.
@@ -313,51 +314,51 @@ Fabric portal.
     ![A screenshot of a computer Description automatically
     generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%202/media/image39.png)
 
-5.  From the Choose data window, select only the **Suppliers** table
+7.  From the Choose data window, select only the **Suppliers** table
     from the display options, review the table and proceed with clicking
     on **Create** button.
 
     ![A screenshot of a computer Description automatically
     generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%202/media/image40.png)
 
-6.  In the **Data Destination** section, make sure to check that the
+8.  In the **Data Destination** section, make sure to check that the
     **SQL database** is connected.
 
     ![A screenshot of a computer Description automatically
-    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%202/media/image41.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%202/media/image184.png)
 
-7.  Select the **Publish** button to start the data transfer.
+9.  Select the **Save & run** button to start the data transfer.
 
     ![A screenshot of a computer Description automatically
-    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%202/media/image42.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%202/media/image185.png)
 
-8.  You're returned to your Workspace view, where you can find the new
+10.  You're returned to your Workspace view, where you can find the new
     Dataflow item. Wait until you receive a notification that the
     dataflow is published successfully.
 
-    ![A screenshot of a computer Description automatically
+ ![A screenshot of a computer Description automatically
     generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%202/media/image43.png)
 
-9.  Select **supply_chain_analytics_database** SQL database.
+11.  Select **supply_chain_analytics_database** SQL database.
 
-    ![A screenshot of a computer Description automatically
+![A screenshot of a computer Description automatically
     generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%202/media/image44.png)
 
-10. Refresh the database by clicking on the three
+11. Refresh the database by clicking on the three
     dots **(...)** beside **supply_chain_analytics_database ,** then
     navigate and click on **Refresh**.
 
     ![A screenshot of a computer Description automatically
     generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%202/media/image45.png)
 
-11. In the Explorer, expand the **dbo** **\> Tables** schema to display
+12. In the Explorer, expand the **dbo** **\> Tables** schema to display
     the new table named **Suppliers.**
 
     ![A screenshot of a computer Description automatically
     generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%202/media/image46.png)
     
 
-12. The data is now ingested into your database. You can now create a
+13. The data is now ingested into your database. You can now create a
     query that combines the data from the Suppliers table using this
     tertiary table. You'll do this later in the tutorial.
 
