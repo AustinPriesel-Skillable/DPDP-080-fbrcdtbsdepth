@@ -507,7 +507,7 @@ intelligent product recommendations.
 
    ![](./media/image61.png)
 
-### **Task-2: Create Model Deployments- (text-embedding-ada-002 and GPT-4.1)**
+### **Task-2: Create Model Deployments- (text-embedding-ada-002 and GPT-5)**
 
 13. Navigate to **Overview** tab and **go to Foundry portal.**
 
@@ -635,7 +635,7 @@ key for connecting to Azure OpenAI services.
     call external REST endpoints in action. Copy and paste the following
     code into a blank query editor in Microsoft Fabric:
 
-    **Note:** Replace the gpt-4.1 Target URL in the first line and OpenAI
+    **Note:** Replace the gpt-5 Target URL in the first line and OpenAI
     Endpoint in the credential
 
     ```
@@ -1279,7 +1279,7 @@ Congratulations!! In this exercise, you learned how to build a RAG
 application using SQL database in fabric, and Azure OpenAI. You explored
 generating vector embeddings for relational data, performing semantic
 similarity searches with SQL, and integrating natural language responses
-via GPT-4.1.
+via GPT-5
 
 ## **Exercise 5 – Create a Power BI Report from a SQL analytics endpoint in Microsoft Fabric with Copilot**
 
