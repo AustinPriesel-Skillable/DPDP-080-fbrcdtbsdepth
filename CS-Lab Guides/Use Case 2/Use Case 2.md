@@ -332,12 +332,11 @@ Fabric portal.
     ![A screenshot of a computer Description automatically
     generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%202/media/image185.png)
 
-10.  You're returned to your Workspace view, where you can find the new
-    Dataflow item. Wait until you receive a notification that the
-    dataflow is published successfully.
+10.  Navigate to the workspace page, where you can find the new
+    Dataflow item. Wait until you see that the dataflow is published successfully.
 
  ![A screenshot of a computer Description automatically
-    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%202/media/image43.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%202/media/image186.png)
 
 11.  Select **supply_chain_analytics_database** SQL database.
 
