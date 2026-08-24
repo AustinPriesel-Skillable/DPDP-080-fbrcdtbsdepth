@@ -615,39 +615,33 @@ specific outcome.
 3.  Select all the tables in **dbo** and **SupplyChain** schema. Also,
     include the three views you have created in **SupplyChain**.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%202/media/image72.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%202/media/image187.png)
     
-    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%202/media/image73.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%202/media/image188.png)
 
 4.  Now, provide the name of the new semantic model as
     +++supplychain-model+++ and click on **Confirm**.
 
     ![A screenshot of a computer Description automatically
-    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%202/media/image74.png)
+    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%202/media/image189.png)
 
 5.  Navigate to the workspace and open the **semantic model** created.
 
    ![A screenshot of a computer Description automatically
     generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%202/media/image75.png)
 
-7.  If the below page will be displayed, click on **Open Semantic
-    model** option from the top bar.
-
-    ![A screenshot of a computer Description automatically
-    generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%202/media/image76.png)
-
-8.  Make sure the semantic model is in **Editing** view to make any
+6.  Make sure the semantic model is in **Editing** view to make any
     changes.
 
     ![A screenshot of a computer Description automatically
     generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%202/media/image77.png)
 
-9.  From the resulting view, zoom in and scroll over until you see
+7.  From the resulting view, zoom in and scroll over until you see
     the **vTotalProductsByVendorLocation** object.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%202/media/image78.png) 
 
-10.  In the properties, select the **Location** field, and expand
+8.  In the properties, select the **Location** field, and expand
     the **Advanced** properties section. You might need to scroll to
     find it. Set the value of **Summarize by** to **None**. This ensures
     that when the field is used, it's a discrete number, not a
