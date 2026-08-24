@@ -565,29 +565,29 @@ intelligent product recommendations.
 
     ![](./media/image68.png)
 
-20. Deploy the second model – **GPT-4.1**. Select **Deploy base model**
+20. Deploy the second model – **GPT-5**. Select **Deploy base model**
     from the **deploy** **model** dropdown.
 
     ![A screenshot of a computer Description automatically
     generated](./media/image69.png)
 
-21. Search for +++gpt-4.1+++ model, select it and click on **Confirm** to
+21. Search for +++gpt-5+++ model, select it and click on **Confirm** to
     proceed.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image70.png)
+    generated](./media/image125.png)
 
-22. Make sure **Standard** version is selected for **gpt-4.1** model and
+22. Make sure **Global Standard** version is selected for **gpt-5** model and
     click on **Deploy**.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image71.png)
+    generated](./media/image126.png)
 
-23. The **gpt-4.1** model deployment is now **succeeded**. Make sure you
-    copy the **Target URL** in the notepad for the further tasks.
+23. The **gpt-5** model deployment is now **succeeded**. Make sure you
+    copy the **Target URL** to Notepad for further tasks.
 
     ![A screenshot of a computer Description automatically
-    generated](./media/image72.png)
+    generated](./media/image127.png)
 
 ### **Task-3: Setup of database credential**
 
@@ -596,7 +596,7 @@ authentication information for connecting to a resource outside the
 database. For this task, we will be creating one that contains the api
 key for connecting to Azure OpenAI services.
 
-24. Navigate to Microsoft Fabric portal and open **a new query** editor
+24. Navigate to the Microsoft Fabric portal and open **a new query** editor
     window.
 
    ![A screenshot of a computer Description automatically
