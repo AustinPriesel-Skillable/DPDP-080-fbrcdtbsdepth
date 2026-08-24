@@ -514,12 +514,27 @@ intelligent product recommendations.
     ![A screenshot of a computer Description automatically
     generated](./media/image62.png)
 
-14. Scroll down and go to **Deployments** from the left navigation pane.
+14. You will be redirected to the Microsoft Foundry Portal. Click **Skip** on the pop-up.
+
+	 ![A screenshot of a computer Description automatically
+    generated](./media/image122.png)
+    
+15. Select the dropdown at the top and select **View all resources**.
+
+	![A screenshot of a computer Description automatically
+    generated](./media/image123.png)
+
+16. Select the OpenAI resource and click on **Open in Foundry Classic**.
+
+	![A screenshot of a computer Description automatically
+    generated](./media/image124.png)
+	
+18. Scroll down and go to **Deployments** from the left navigation pane.
 
     ![A screenshot of a computer Description automatically
     generated](./media/image63.png)
 
-15. Click **‘+ Deploy model’** dropdown and select **Deploy base model.**
+19. Click **‘+ Deploy model’** dropdown and select **Deploy base model.**
 
    ![A screenshot of a computer Description automatically
    generated](./media/image64.png)
