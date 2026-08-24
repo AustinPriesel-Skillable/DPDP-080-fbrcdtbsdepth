@@ -117,8 +117,8 @@ To create a workspace:
 
 ## Exercise 2 – Create a SQL Database in Microsoft Fabric 
 
-1.  In the Fabric Portal, click on **+ New Item**, search for **SQL
-    databases**, and select **SQL database (preview) tile.**
+1.  In the Fabric Portal, click on **+ New Item**, search for +++SQL
+    databases+++, and select **SQL database tile.**
 
     ![A screenshot of a computer Description automatically
     generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdtbsdepth/refs/heads/Fabric-Databases--Cloud-Slice/CS-Lab%20Guides/Use%20Case%202/media/image18.png)
